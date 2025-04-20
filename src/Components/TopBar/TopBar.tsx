@@ -2,7 +2,8 @@ import React from 'react'
 import './TopBar.css'
 import { CiSearch } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
-import { GiBasket } from "react-icons/gi";
+import { CiShoppingBasket } from "react-icons/ci";
+
 
 
 export default function TopBar() {
@@ -12,17 +13,17 @@ export default function TopBar() {
 
 
                 <div className="container-btn-login-and-btn-cart-top-bar">
-                    <button className='btn-cart-top-bar'><GiBasket /></button>
-                    <button className='btn-auth-top-bar'> <CiUser className='icon-user-top-bar' /> ثبت‌نام | ورود </button>
+                    <button className='btn-cart-top-bar'><CiShoppingBasket size={25} className='icon-basket-top-bar' /></button>
+                    <button className='btn-auth-top-bar'> <CiUser className='icon-user-top-bar' size={20} /> ثبت‌نام | ورود </button>
                 </div>
 
-                <div className="container-search-box-and-logo-top-bar">
+                <div className="container-search-box-top-bar">
                     <input type="text" placeholder='جستجو' className='input-search-top-bar' />
-                    <CiSearch className='icon-search-top-bar' />
-                    
-                    <div className="container-logo-top-bar">
-                        <img src="Logo/logo.png" />
-                    </div>
+                    <CiSearch className='icon-search-top-bar' size={20} />
+                </div>
+
+                <div className="container-logo-top-bar">
+                    <img src="Logo/logo.png" />
                 </div>
 
             </div>
