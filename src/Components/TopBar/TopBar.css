@@ -1,0 +1,16 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-search-box-and-logo-top-bar{
+    display: flex;
+    align-items: center;
+}

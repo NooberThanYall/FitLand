@@ -9,6 +9,8 @@ lerna-debug.log*
 
 node_modules
 eslint.config.js
+.gitignore
+index.html
 package-lock.json
 package.json
 README.md
