@@ -1,6 +1,36 @@
 .container-bottom-menu{
-    width: 100%;
-    background-color: red;
+    width: 90%;
     position: fixed;
-    margin-top: 430px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    background-color: #FA541C;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: none;
+}
+
+.btn-icons{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.btn-icons:hover{
+    transform: translateY(-20px);
+}
+
+.icons-bottom-menu{
+    color: white;
+    background-color: rgba(255,255,255,0.13);
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    padding: 5px;
 }
