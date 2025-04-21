@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import TopBar from './Components/TopBar/TopBar'
+import BottomMenu from './Components/BottomMenu/BottomMenu'
 
 function App() {
 
@@ -7,6 +8,8 @@ function App() {
     <>
     <TopBar />
     
+
+    <BottomMenu />
     </>
   )
 }
