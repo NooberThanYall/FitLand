@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import './mediaHeader.css'
 import { FaArrowLeft } from "react-icons/fa";
-import { CiShop } from "react-icons/ci";
+import { BsShopWindow } from "react-icons/bs";
 import { AiOutlineLike } from "react-icons/ai";
 import { MdOutlineDateRange } from "react-icons/md";
 
@@ -19,25 +19,25 @@ export default function Header() {
                     <p className="des-header-right">بزرگترین حراج فصل فیت لند همین حالا شرع کن و محصولات با یه تخفیف شگفت انگیز بخر!</p>
                     <button className='btn-header-right'>مشاهده  محصولات <FaArrowLeft className='icon-btn-header' /></button>
                 </div>
-                
+
                 <div className="container-header-main">
                     <img src="Imgs/img-header.png" className='img-header' />
                 </div>
 
                 <div className="container-header-left">
                     <div className="container-header-left-childes">
-                        <CiShop />
-                        <div className="text-container">+ ۳۰۰ <br /> محصولات متنوع</div>
+                        <BsShopWindow className='icon-header-left' size={30} />
+                        <div className="text-container"> ۳۰۰  +<br /> <abbr style={{ color: '#404040', fontSize: '16px' }}> محوصلات متنوع </abbr></div>
                     </div>
 
                     <div className="container-header-left-childes">
-                        <AiOutlineLike />
-                        <div className="text-container">۹۵ % <br /> رضایت مشتری</div>
+                        <AiOutlineLike className='icon-header-left' size={30} />
+                        <div className="text-container"> % ۹۵ <br /> <abbr style={{ color: '#404040', fontSize: '16px' }}> رضایت مشتری </abbr></div>
                     </div>
 
                     <div className="container-header-left-childes">
-                        <MdOutlineDateRange />
-                        <div className="text-container">۴ روز  <br /> از خرید تا دریافت</div>
+                        <MdOutlineDateRange className='icon-header-left' size={30} />
+                        <div className="text-container">۴ روز  <br /> <abbr style={{ color: '#404040', fontSize: '16px' }}> از خرید تا دریافت </abbr></div>
                     </div>
                 </div>
             </div>
