@@ -1,5 +1,6 @@
 import React from 'react'
 import './NavBar.css'
+import './mediaNavBar.css'
 import { CiStar } from "react-icons/ci";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 import { TbShoppingCartStar } from "react-icons/tb";

@@ -1,7 +1,7 @@
 .container-bottom-menu {
     width: 70%;
     position: fixed;
-    margin-top: 310px;
+    margin-top: 335px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -11,7 +11,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     display: none;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .btn-icons {
@@ -61,15 +61,15 @@
 .icon-open-bottom-menu {
     color: #FA541C;
     position: fixed;
-    margin-top: 335px;
+    margin-top: 360px;
     left: 50%;
     transform: translateX(-50%);
-    transition: 0.3s;
+    transition: 0.2s;
     display: none;
 }
 
 .icon-go-top{
-    margin-top: 280px;
+    margin-top: 305px;
     transform: rotate(180deg) translateX(50%);
 }
 
