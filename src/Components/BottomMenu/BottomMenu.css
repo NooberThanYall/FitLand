@@ -1,7 +1,7 @@
 .container-bottom-menu {
     width: 70%;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -74,5 +74,5 @@
 }
 
 .onShow {
-    margin-top: 390px;
+    bottom: -55px;
 }
