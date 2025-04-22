@@ -1,0 +1,39 @@
+.container-nav-bar{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.container-nav-right{
+    display: flex;
+    gap: 20px;
+}
+
+.container-nav-left{
+    display: flex;
+    gap: 20px;
+}
+
+.links-nav-bar{
+    border: none;
+    background: none;
+    color: #000306;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.links-nav-bar:hover{
+    color: #FA541C;
+    transform: translateY(-3px);
+}
+
+.icon-nav-bar{
+    color: #FA541C;
+}
