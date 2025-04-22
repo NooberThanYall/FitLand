@@ -2,6 +2,10 @@
     .container-bottom-menu{
         display: flex;
     }
+
+    .icon-open-bottom-menu {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 430px){
