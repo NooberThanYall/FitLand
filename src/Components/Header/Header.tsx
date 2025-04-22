@@ -2,6 +2,9 @@ import React from 'react'
 import './Header.css'
 import './mediaHeader.css'
 import { FaArrowLeft } from "react-icons/fa";
+import { CiShop } from "react-icons/ci";
+import { AiOutlineLike } from "react-icons/ai";
+import { MdOutlineDateRange } from "react-icons/md";
 
 
 export default function Header() {
@@ -19,6 +22,23 @@ export default function Header() {
                 
                 <div className="container-header-main">
                     <img src="Imgs/img-header.png" className='img-header' />
+                </div>
+
+                <div className="container-header-left">
+                    <div className="container-header-left-childes">
+                        <CiShop />
+                        <div className="text-container">+ ۳۰۰ <br /> محصولات متنوع</div>
+                    </div>
+
+                    <div className="container-header-left-childes">
+                        <AiOutlineLike />
+                        <div className="text-container">۹۵ % <br /> رضایت مشتری</div>
+                    </div>
+
+                    <div className="container-header-left-childes">
+                        <MdOutlineDateRange />
+                        <div className="text-container">۴ روز  <br /> از خرید تا دریافت</div>
+                    </div>
                 </div>
             </div>
         </div>
