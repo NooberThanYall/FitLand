@@ -20,10 +20,10 @@ export default function BottomMenu() {
         <div className='container'>
             <MdKeyboardArrowUp className={`icon-open-bottom-menu ${show ? 'icon-go-top' : ''}`} onClick={toggelModalHandler} size={30} />
             <div className={`container-bottom-menu ${show ? '' : 'onShow'}`}>
-                <button className="btn-icons"><LiaTshirtSolid className='icons-bottom-menu' size={30} /></button>
-                <button className="btn-icons"><CiShoppingBasket className='icons-bottom-menu' size={30} /></button>
-                <button className="btn-icons"><CiUser className='icons-bottom-menu' size={30} /></button>
                 <button className="btn-icons"><IoHomeOutline className='icons-bottom-menu' size={30} /></button>
+                <button className="btn-icons"><CiUser className='icons-bottom-menu' size={30} /></button>
+                <button className="btn-icons"><CiShoppingBasket className='icons-bottom-menu' size={30} /></button>
+                <button className="btn-icons"><LiaTshirtSolid className='icons-bottom-menu' size={30} /></button>
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
 .container-bottom-menu {
     width: 70%;
     position: fixed;
-    margin-top: 335px;
+    margin-top: 310px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -61,7 +61,7 @@
 .icon-open-bottom-menu {
     color: #FA541C;
     position: fixed;
-    margin-top: 360px;
+    margin-top: 335px;
     left: 50%;
     transform: translateX(-50%);
     transition: 0.3s;
@@ -69,7 +69,7 @@
 }
 
 .icon-go-top{
-    margin-top: 300px;
+    margin-top: 280px;
     transform: rotate(180deg) translateX(50%);
 }
 
