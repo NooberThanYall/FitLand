@@ -8,10 +8,6 @@ export default function VipOffer() {
         <div className='container'>
             <div className="container-vip-off">
 
-                <div className="container-background">
-                    <img src="Imgs/backGround-vip-off-cards.png" className='img-back-vip-off' />
-                </div>
-
                 <p className="title-vip-off">تخفیفات ویژه</p>
                 <p className="see-all-btn">مشاهده همه <FaArrowLeft size={15} /></p>
 
@@ -33,7 +29,7 @@ export default function VipOffer() {
                         <img src="Imgs/colors.png" className='img-color-products'/>
                     </div>
 
-                    <div className="cards-vip-off">
+                    <div className="cards-vip-off hider">
                         <img src="Imgs/img-3-vip-off.png" className='img-vip-off-card' />
                         <p className="title-product-card-vip-off">کفش نایک مدل S-2000</p>
                         <p className="price-product-card-vip-off">۲۰۰,۰۰۰ تومان</p>
