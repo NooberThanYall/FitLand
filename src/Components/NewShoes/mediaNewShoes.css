@@ -1,0 +1,347 @@
+@media only screen and (max-width: 1160px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 330px);
+    }
+
+    .cards-new-shoes {
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 320px);
+    }
+
+    .cards-new-shoes {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 305px);
+    }
+
+    .cards-new-shoes {
+        width: 305px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 290px);
+    }
+
+    .cards-new-shoes {
+        width: 290px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 270px);
+    }
+
+    .cards-new-shoes {
+        width: 270px;
+    }
+
+    .title-new-shoes {
+        font-size: 26px;
+    }
+
+    .see-all-btn {
+        font-size: 5;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 255px);
+    }
+
+    .cards-new-shoes {
+        width: 255px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 240px);
+    }
+
+    .cards-new-shoes {
+        width: 240px;
+    }
+
+    .title-new-shoes {
+        font-size: 24px;
+    }
+
+    .see-all-btn {
+        font-size: 14px;
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 220px);
+    }
+
+    .cards-new-shoes {
+        width: 220px;
+    }
+
+    .title-new-shoes {
+        font-size: 22px;
+    }
+
+    .title-product-card-new-shoes {
+        font-size: 15px;
+    }
+
+    .price-product-card-new-shoes {
+        font-size: 13px;
+    }
+
+    .size-product-card-new-shoes {
+        font-size: 12px;
+    }
+
+    .see-all-btn {
+        bottom: 45px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 210px);
+    }
+
+    .cards-new-shoes {
+        width: 210px;
+    }
+
+    .title-new-shoes {
+        font-size: 20px;
+    }
+
+    .title-product-card-new-shoes {
+        font-size: 14px;
+    }
+
+    .price-product-card-new-shoes {
+        font-size: 12px;
+    }
+
+    .size-product-card-new-shoes {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 190px);
+    }
+
+    .cards-new-shoes {
+        width: 190px;
+    }
+
+    .title-new-shoes {
+        font-size: 19px;
+    }
+
+    .title-product-card-new-shoes {
+        font-size: 13px;
+    }
+
+    .price-product-card-new-shoes {
+        font-size: 11px;
+    }
+
+    .size-product-card-new-shoes {
+        font-size: 10px;
+    }
+
+    .see-all-btn {
+        bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(3, 175px);
+    }
+
+    .cards-new-shoes {
+        width: 175px;
+    }
+
+    .title-new-shoes {
+        font-size: 18px;
+    }
+
+    .title-product-card-new-shoes {
+        font-size: 12px;
+    }
+
+    .price-product-card-new-shoes {
+        font-size: 10px;
+    }
+
+    .size-product-card-new-shoes {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .hider-new-shoes {
+        display: none;
+    }
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(2, 240px);
+    }
+
+    .cards-new-shoes {
+        width: 240px;
+    }
+
+    .title-new-shoes {
+        font-size: 23px;
+    }
+
+    .see-all-btn {
+        font-size: 16px;
+        bottom: 50px;
+    }
+
+    .title-product-card-new-shoes {
+        font-size: 16px;
+    }
+
+    .price-product-card-new-shoes {
+        font-size: 14px;
+    }
+
+    .size-product-card-new-shoes {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(2, 215px);
+    }
+
+    .cards-new-shoes {
+        width: 215px;
+    }
+
+    .title-new-shoes {
+        font-size: 22px;
+    }
+
+    .see-all-btn {
+        font-size: 15px;
+        bottom: 50px;
+    }
+
+    .title-product-card-new-shoes {
+        font-size: 15px;
+    }
+
+    .price-product-card-new-shoes {
+        font-size: 13px;
+    }
+
+    .size-product-card-new-shoes {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(2, 190px);
+    }
+
+    .cards-new-shoes {
+        width: 190px;
+    }
+
+    .title-new-shoes {
+        font-size: 20px;
+    }
+
+    .see-all-btn {
+        font-size: 13px;
+        bottom: 45px;
+    }
+
+    .title-product-card-new-shoes {
+        font-size: 14px;
+    }
+
+    .price-product-card-new-shoes {
+        font-size: 12px;
+    }
+
+    .size-product-card-new-shoes {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(1, 270px);
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .cards-new-shoes {
+        width: 270px;
+    }
+
+    .title-product-card-new-shoes {
+        font-size: 16px;
+    }
+
+    .price-product-card-new-shoes {
+        font-size: 15px;
+    }
+
+    .size-product-card-new-shoes {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .container-cards-new-shoes {
+        grid-template-columns: repeat(1, 260px);
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .cards-new-shoes {
+        width: 260px;
+    }
+}
