@@ -15,7 +15,7 @@ body{
     margin-right: 20px;
 }
 
-.see-all-btn{
+.see-all-btn-new-shoes{
     display: flex;
     align-items: center;
     color: #032340;
@@ -30,7 +30,7 @@ body{
     bottom: 60px;
 }
 
-.see-all-btn:hover{
+.see-all-btn-new-shoes:hover{
     transform: translateY(-3px);
 }
 

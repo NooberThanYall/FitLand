@@ -8,7 +8,7 @@ export default function NewShoes() {
         <div className='container'>
             <div className="container-new-shoes">
 
-                <p className="title-new-shoes">تخفیفات ویژه</p>
+                <p className="title-new-shoes">جدید ترین کفش های ورزشی </p>
                 <p className="see-all-btn-new-shoes">مشاهده همه <FaArrowLeft size={15} /></p>
 
                 <div className="container-cards-new-shoes">
