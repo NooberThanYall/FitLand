@@ -1,12 +1,15 @@
-.img-bike{
+.container-img-bike{
+    display: grid;
+    grid-template-columns: repeat(2, 350px 800px);
     margin-top: 200px;
-    display: flex;
-    justify-self: center;
-    width: 100%;
 }
 
-.container-texts-img-bike{
-    margin-top: -400px;
+.img-bike{
+    width: 100%;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .sub-title-img-bike{
@@ -29,7 +32,7 @@
     color: white;
     padding: 10px;
     gap: 10px;
-    font-size: 18px;
+    font-size: 15px;
     cursor: pointer;
     transition: 0.3s;
 }
