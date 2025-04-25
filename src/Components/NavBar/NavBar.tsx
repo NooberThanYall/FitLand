@@ -1,4 +1,3 @@
-import React from 'react'
 import './NavBar.css'
 import './mediaNavBar.css'
 import { CiStar } from "react-icons/ci";

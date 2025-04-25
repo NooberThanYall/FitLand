@@ -1,4 +1,3 @@
-import React from 'react'
 import './VipOffer.css'
 import './mediaVipOffer.css'
 import { FaArrowLeft } from "react-icons/fa";

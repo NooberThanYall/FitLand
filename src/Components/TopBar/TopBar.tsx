@@ -1,4 +1,3 @@
-import React from 'react'
 import './TopBar.css'
 import './mediaTopBar.css'
 import { CiSearch } from "react-icons/ci";

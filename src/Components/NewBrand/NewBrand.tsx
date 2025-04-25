@@ -1,4 +1,3 @@
-import React from 'react'
 import './NewBrand.css'
 import './mediaNewBrand.css'
 import { FaArrowLeft } from "react-icons/fa";

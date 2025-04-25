@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './BottomMenu.css'
 import './mediaBottomMenu.css'
 import { IoHomeOutline } from "react-icons/io5";

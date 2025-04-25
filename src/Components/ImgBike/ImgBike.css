@@ -1,12 +1,8 @@
-.container-img-bike{
-    display: flex;
-    justify-content: center;
+.img-bike{
     margin-top: 200px;
-}
-
-.ImgBike{
+    display: flex;
+    justify-self: center;
     width: 100%;
-    margin: 0 auto;
 }
 
 .container-texts-img-bike{
