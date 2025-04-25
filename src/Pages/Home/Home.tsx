@@ -3,6 +3,7 @@ import NewBrand from '../../Components/NewBrand/NewBrand'
 import VipOffer from '../../Components/VipOffer/VipOffer'
 import NewShoes from '../../Components/NewShoes/NewShoes'
 import ImgBike from '../../Components/ImgBike/ImgBike'
+import VipOffBike from '../../Components/VipOffBike/VipOffBike'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <VipOffer />
         <NewShoes />
         <ImgBike />
+        <VipOffBike />
     </div>
   )
 }
