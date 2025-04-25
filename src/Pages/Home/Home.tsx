@@ -6,12 +6,14 @@ import ImgBike from '../../Components/Home/ImgBike/ImgBike'
 import VipOffBike from '../../Components/Home/VipOffBike/VipOffBike'
 import MostSell from '../../Components/Home/MostSell/MostSell'
 import CampImg from '../../Components/Home/CampImg/CampImg'
+import Aerobic from '../../Components/Home/Aerobic/Aerobic'
 
 export default function Home() {
   return (
     <div>
         <Header />
         <NewBrand />
+        <Aerobic />
         <VipOffer />
         <NewShoes />
         <ImgBike />
