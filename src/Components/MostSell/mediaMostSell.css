@@ -1,0 +1,316 @@
+@media only screen and (max-width: 1160px) {
+
+    .img-card-most-sell {
+        width: 360px;
+    }
+
+    .img-blue-most-sell {
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .img-card-most-sell {
+        width: 340px;
+    }
+
+    .img-blue-most-sell {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+
+    .img-card-most-sell {
+        width: 330px;
+    }
+
+    .img-blue-most-sell {
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .img-card-most-sell {
+        width: 300px;
+    }
+
+    .img-blue-most-sell {
+        width: 300px;
+    }
+
+    .des-cards {
+        font-size: 14px;
+        margin-top: -60px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .img-card-most-sell {
+        width: 280px;
+    }
+
+    .img-blue-most-sell {
+        width: 280px;
+    }
+
+    .des-cards {
+        font-size: 13px;
+        margin-top: -55px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    .img-card-most-sell {
+        width: 250px;
+    }
+
+    .img-blue-most-sell {
+        width: 250px;
+    }
+
+    .des-cards {
+        font-size: 12px;
+        margin-top: -50px;
+        font-weight: 300;
+    }
+
+    .title-most-sell-left {
+        font-size: 20px;
+    }
+
+    .desc-most-sell-left {
+        font-size: 14px;
+    }
+
+    .btn-most-sell-left {
+        width: 200px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    .img-card-most-sell {
+        width: 230px;
+    }
+
+    .img-blue-most-sell {
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .img-card-most-sell {
+        width: 210px;
+    }
+
+    .img-blue-most-sell {
+        width: 210px;
+    }
+
+    .des-cards {
+        font-size: 11px;
+        margin-top: -45px;
+    }
+
+    .title-most-sell-left {
+        font-size: 18px;
+    }
+
+    .desc-most-sell-left {
+        font-size: 13px;
+        width: 250px;
+    }
+
+    .btn-most-sell-left {
+        width: 180px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .img-card-most-sell {
+        width: 180px;
+    }
+
+    .img-blue-most-sell {
+        width: 180px;
+    }
+
+    .des-cards {
+        font-size: 10px;
+        margin-top: -40px;
+        padding-right: 10px;
+    }
+
+    .btn-most-sell-left {
+        width: 160px;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .img-card-most-sell {
+        width: 260px;
+    }
+
+    .img-blue-most-sell {
+        width: 260px;
+    }
+
+    .des-cards {
+        font-size: 14px;
+        margin-top: -55px;
+        padding-right: 10px;
+    }
+
+    .container-most-sell-left {
+        display: none;
+    }
+
+    .container-card-most-sell {
+        justify-content: space-between;
+    }
+
+    .first-card-most-sell {
+        width: 260px;
+    }
+
+    .sec-card-most-sell {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-card-most-sell {
+        width: 240px;
+    }
+
+    .img-blue-most-sell {
+        width: 240px;
+    }
+
+    .first-card-most-sell {
+        width: 240px;
+    }
+
+    .sec-card-most-sell {
+        width: 240px;
+    }
+
+    .des-cards{
+        font-size: 13px;
+        margin-top: -53px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .img-card-most-sell {
+        width: 215px;
+    }
+
+    .img-blue-most-sell {
+        width: 215px;
+    }
+
+    .first-card-most-sell {
+        width: 215px;
+    }
+
+    .sec-card-most-sell {
+        width: 215px;
+    }
+
+    .des-cards{
+        font-size: 11px;
+        margin-top: -45px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+
+    .img-card-most-sell {
+        width: 190px;
+    }
+
+    .img-blue-most-sell {
+        width: 190px;
+    }
+
+    .first-card-most-sell {
+        width: 190px;
+    }
+
+    .sec-card-most-sell {
+        width: 190px;
+    }
+
+    .des-cards{
+        font-size: 10px;
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .img-card-most-sell {
+        width: 165px;
+    }
+
+    .img-blue-most-sell {
+        width: 165px;
+    }
+
+    .first-card-most-sell {
+        width: 165px;
+    }
+
+    .sec-card-most-sell {
+        width: 165px;
+    }
+
+    .des-cards{
+        font-size: 9px;
+        margin-top: -37px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .container-card-most-sell{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .img-card-most-sell {
+        width: 270px;
+    }
+
+    .img-blue-most-sell {
+        width: 270px;
+    }
+
+    .first-card-most-sell {
+        width: 270px;
+    }
+
+    .sec-card-most-sell {
+        width: 270px;
+    }
+
+    .des-cards{
+        font-size: 15px;
+        margin-top: -60px;
+    }
+}
