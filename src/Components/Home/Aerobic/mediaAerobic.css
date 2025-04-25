@@ -1,0 +1,204 @@
+@media only screen and (max-width: 1200px) {
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 330px 780px);
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 300px 750px);
+    }
+
+    .title-img-Aerobic {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 300px 700px);
+    }
+
+    .title-img-Aerobic {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 280px 670px);
+    }
+
+    .title-img-Aerobic {
+        font-size: 20px;
+    }
+
+    .sub-title-img-Aerobic {
+        font-size: 16px;
+    }
+
+    .btn-img-Aerobic {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 280px 620px);
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 270px 580px);
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 260px 540px);
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 250px 500px);
+    }
+
+    .title-img-Aerobic {
+        font-size: 19px;
+    }
+
+    .sub-title-img-Aerobic {
+        font-size: 15px;
+    }
+
+    .btn-img-Aerobic {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 240px 460px);
+    }
+
+    .title-img-Aerobic {
+        font-size: 18px;
+    }
+
+    .sub-title-img-Aerobic {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 230px 420px);
+    }
+
+    .title-img-Aerobic {
+        font-size: 18px;
+    }
+
+    .sub-title-img-Aerobic {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 210px 390px);
+    }
+
+    .title-img-Aerobic {
+        font-size: 16px;
+    }
+
+    .sub-title-img-Aerobic {
+        font-size: 12px;
+    }
+
+    .btn-img-Aerobic {
+        font-size: 11px;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .container-img-Aerobic {
+        grid-template-columns: repeat(2, 200px 350px);
+    }
+
+    .title-img-Aerobic {
+        font-size: 15px;
+    }
+
+    .sub-title-img-Aerobic {
+        font-size: 11px;
+    }
+
+    .btn-img-Aerobic {
+        font-size: 10px;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container-img-Aerobic {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sub-title-img-Aerobic {
+        font-size: 18px;
+    }
+
+    .title-img-Aerobic {
+        font-size: 24px;
+    }
+
+    .btn-img-Aerobic {
+        font-size: 15px;
+    }
+
+    .container-texts-img-Aerobic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+    .sub-title-img-Aerobic {
+        font-size: 16px;
+    }
+
+    .title-img-Aerobic {
+        font-size: 22px;
+    }
+
+    .btn-img-Aerobic {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .sub-title-img-Aerobic {
+        font-size: 14px;
+    }
+
+    .title-img-Aerobic {
+        font-size: 20px;
+    }
+
+    .btn-img-Aerobic {
+        font-size: 12px;
+    }
+}
