@@ -1,0 +1,26 @@
+.container-img-camp{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 350px 800px);
+    margin-top: 200px;
+    align-items: center;
+}
+
+.img-camp{
+    width: 100%;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.sub-title-img-camp{
+    color: #01070D;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.title-img-camp{
+    color: #01070D;
+    font-size: 24px;
+}
