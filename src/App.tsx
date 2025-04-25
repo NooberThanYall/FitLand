@@ -1,6 +1,6 @@
-import TopBar from './Components/TopBar/TopBar'
-import BottomMenu from './Components/BottomMenu/BottomMenu'
-import NavBar from './Components/NavBar/NavBar'
+import TopBar from './Components/Global/TopBar/TopBar'
+import BottomMenu from './Components/Global/BottomMenu/BottomMenu'
+import NavBar from './Components/Global/NavBar/NavBar'
 import Home from './Pages/Home/Home'
 
 function App() {
