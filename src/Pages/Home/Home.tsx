@@ -5,6 +5,7 @@ import NewShoes from '../../Components/Home/NewShoes/NewShoes'
 import ImgBike from '../../Components/Home/ImgBike/ImgBike'
 import VipOffBike from '../../Components/Home/VipOffBike/VipOffBike'
 import MostSell from '../../Components/Home/MostSell/MostSell'
+import CampImg from '../../Components/Home/CampImg/CampImg'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <ImgBike />
         <VipOffBike />
         <MostSell />
+        <CampImg />
     </div>
   )
 }
