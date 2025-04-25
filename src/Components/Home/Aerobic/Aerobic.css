@@ -1,0 +1,44 @@
+.container-img-Aerobic{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 350px 800px);
+    margin-top: 200px;
+    align-items: center;
+}
+
+.img-Aerobic{
+    width: 100%;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.sub-title-img-Aerobic{
+    color: #01070D;
+    font-size: 18px;
+}
+
+.title-img-Aerobic{
+    color: #01070D;
+    margin-top: -10px;
+    font-size: 24px;
+}
+
+.btn-img-Aerobic{
+    background-color: #032340;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-img-Aerobic:hover{
+    transform: translateY(-3px);
+}
