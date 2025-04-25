@@ -4,6 +4,7 @@ import VipOffer from '../../Components/VipOffer/VipOffer'
 import NewShoes from '../../Components/NewShoes/NewShoes'
 import ImgBike from '../../Components/ImgBike/ImgBike'
 import VipOffBike from '../../Components/VipOffBike/VipOffBike'
+import MostSell from '../../Components/MostSell/MostSell'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <NewShoes />
         <ImgBike />
         <VipOffBike />
+        <MostSell />
     </div>
   )
 }
