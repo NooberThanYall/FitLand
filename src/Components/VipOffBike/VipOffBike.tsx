@@ -5,35 +5,35 @@ import {FaArrowLeft} from 'react-icons/fa'
 export default function VipOffBike() {
   return (
             <div className='container'>
-                <div className="container-new-shoes">
+                <div className="container-off-bike">
     
-                    <p className="title-new-shoes">جدید ترین کفش های ورزشی </p>
-                    <p className="see-all-btn-new-shoes">مشاهده همه <FaArrowLeft size={15} /></p>
+                    <p className="title-off-bike">تخفیفات ویژه</p>
+                    <p className="see-all-btn-off-bike">مشاهده همه <FaArrowLeft size={15} /></p>
     
-                    <div className="container-cards-new-shoes">
+                    <div className="container-cards-off-bike">
     
-                        <div className="cards-new-shoes">
-                            <img src="Imgs/img-new-shoes-1.png" className='img-new-shoes-card' />
-                            <p className="title-product-card-new-shoes">نایک مدل AO-14</p>
-                            <p className="price-product-card-new-shoes">۳۰۰,۰۰۰ تومان</p>
-                            <p className="size-product-card-new-shoes">از سایز L تا XXL</p>
-                            <img src="Imgs/colors.png" className='img-color-products-new-shoes' />
+                        <div className="cards-off-bike">
+                            <img src="Imgs/img-bike-1.png" className='img-off-bike-card' />
+                            <p className="title-product-card-off-bike">اسکوتر مدل A-155</p>
+                            <p className="price-product-card-off-bike">۳۰۰,۰۰۰ تومان</p>
+                            <p className="size-product-card-off-bike">از سایز L تا XXL</p>
+                            <img src="Imgs/colors.png" className='img-color-products-off-bike' />
                         </div>
     
-                        <div className="cards-new-shoes">
-                            <img src="Imgs/img-new-shoes-2.png" className='img-new-shoes-card' />
-                            <p className="title-product-card-new-shoes">کفش نایک 2024</p>
-                            <p className="price-product-card-new-shoes">۲۰۰,۰۰۰ تومان</p>
-                            <p className="size-product-card-new-shoes">از سایز L تا XXL</p>
-                            <img src="Imgs/colors.png" className='img-color-products-new-shoes' />
+                        <div className="cards-off-bike">
+                            <img src="Imgs/img-bike-2.png" className='img-off-bike-card' />
+                            <p className="title-product-card-off-bike">دوچرخه مدل S-2000</p>
+                            <p className="price-product-card-off-bike">۲۰۰,۰۰۰ تومان</p>
+                            <p className="size-product-card-off-bike">از سایز L تا XXL</p>
+                            <img src="Imgs/colors.png" className='img-color-products-off-bike' />
                         </div>
     
-                        <div className="cards-new-shoes hider-new-shoes">
-                            <img src="Imgs/img-new-shoes-3.png" className='img-new-shoes-card' />
-                            <p className="title-product-card-new-shoes">کفش نایک مدل S-2000</p>
-                            <p className="price-product-card-new-shoes">۲۰۰,۰۰۰ تومان</p>
-                            <p className="size-product-card-new-shoes">از سایز L تا XXL</p>
-                            <img src="Imgs/colors.png" className='img-color-products-new-shoes' />
+                        <div className="cards-off-bike hider-off-bike">
+                            <img src="Imgs/img-bike-3.png" className='img-off-bike-card' />
+                            <p className="title-product-card-off-bike">دوچرخه مدل AO-14</p>
+                            <p className="price-product-card-off-bike">۲۰۰,۰۰۰ تومان</p>
+                            <p className="size-product-card-off-bike">از سایز L تا XXL</p>
+                            <img src="Imgs/colors.png" className='img-color-products-off-bike' />
                         </div>
     
                     </div>
