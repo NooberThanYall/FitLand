@@ -1,31 +1,204 @@
-@media only screen and (max-width: 1240px){
+@media only screen and (max-width: 1200px) {
+    .container-img-bike {
+        grid-template-columns: repeat(2, 330px 780px);
+    }
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1160px) {
+    .container-img-bike {
+        grid-template-columns: repeat(2, 300px 750px);
+    }
+
+    .title-img-bike {
+        font-size: 22px;
+    }
 }
 
-@media only screen and (max-width: 1060px){}
+@media only screen and (max-width: 1100px) {
+    .container-img-bike {
+        grid-template-columns: repeat(2, 300px 700px);
+    }
 
-@media only screen and (max-width: 1000px){}
+    .title-img-bike {
+        font-size: 22px;
+    }
+}
 
-@media only screen and (max-width: 960px){}
+@media only screen and (max-width: 1040px) {
+    .container-img-bike {
+        grid-template-columns: repeat(2, 280px 670px);
+    }
 
-@media only screen and (max-width: 900px){}
+    .title-img-bike {
+        font-size: 20px;
+    }
 
-@media only screen and (max-width: 850px){}
+    .sub-title-img-bike {
+        font-size: 16px;
+    }
 
-@media only screen and (max-width: 800px){}
+    .btn-img-bike {
+        font-size: 14px;
+    }
+}
 
-@media only screen and (max-width: 750px){}
+@media only screen and (max-width: 1000px) {
 
-@media only screen and (max-width: 650px){}
+    .container-img-bike {
+        grid-template-columns: repeat(2, 280px 620px);
+    }
+}
 
-@media only screen and (max-width: 600px){}
+@media only screen and (max-width: 950px) {
+    .container-img-bike {
+        grid-template-columns: repeat(2, 270px 580px);
+    }
+}
 
-@media only screen and (max-width: 550px){}
+@media only screen and (max-width: 890px) {
+    .container-img-bike {
+        grid-template-columns: repeat(2, 260px 540px);
+    }
+}
 
-@media only screen and (max-width: 500px){}
+@media only screen and (max-width: 840px) {
+    .container-img-bike {
+        grid-template-columns: repeat(2, 250px 500px);
+    }
 
-@media only screen and (max-width: 450px){}
+    .title-img-bike {
+        font-size: 19px;
+    }
 
-@media only screen and (max-width: 400px){}
+    .sub-title-img-bike {
+        font-size: 15px;
+    }
+
+    .btn-img-bike {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container-img-bike {
+        grid-template-columns: repeat(2, 240px 460px);
+    }
+
+    .title-img-bike {
+        font-size: 18px;
+    }
+
+    .sub-title-img-bike {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .container-img-bike {
+        grid-template-columns: repeat(2, 230px 420px);
+    }
+
+    .title-img-bike {
+        font-size: 18px;
+    }
+
+    .sub-title-img-bike {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .container-img-bike {
+        grid-template-columns: repeat(2, 210px 390px);
+    }
+
+    .title-img-bike {
+        font-size: 16px;
+    }
+
+    .sub-title-img-bike {
+        font-size: 12px;
+    }
+
+    .btn-img-bike {
+        font-size: 11px;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .container-img-bike {
+        grid-template-columns: repeat(2, 200px 350px);
+    }
+
+    .title-img-bike {
+        font-size: 15px;
+    }
+
+    .sub-title-img-bike {
+        font-size: 11px;
+    }
+
+    .btn-img-bike {
+        font-size: 10px;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container-img-bike {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sub-title-img-bike {
+        font-size: 18px;
+    }
+
+    .title-img-bike {
+        font-size: 24px;
+    }
+
+    .btn-img-bike {
+        font-size: 15px;
+    }
+
+    .container-texts-img-bike{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+    .sub-title-img-bike {
+        font-size: 16px;
+    }
+
+    .title-img-bike {
+        font-size: 22px;
+    }
+
+    .btn-img-bike {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .sub-title-img-bike {
+        font-size: 14px;
+    }
+
+    .title-img-bike {
+        font-size: 20px;
+    }
+
+    .btn-img-bike {
+        font-size: 12px;
+    }
+}

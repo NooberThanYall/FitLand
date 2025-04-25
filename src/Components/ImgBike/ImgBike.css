@@ -1,7 +1,9 @@
 .container-img-bike{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 350px 800px);
     margin-top: 200px;
+    align-items: center;
 }
 
 .img-bike{
