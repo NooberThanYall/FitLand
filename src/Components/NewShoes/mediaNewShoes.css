@@ -331,6 +331,10 @@
     .size-product-card-new-shoes {
         font-size: 13px;
     }
+
+    .see-all-btn-new-shoes{
+        left: 45px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
