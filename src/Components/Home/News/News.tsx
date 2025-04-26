@@ -5,8 +5,8 @@ import { FaArrowLeft } from "react-icons/fa";
 export default function News() {
     return (
         <div className='container'>
+            <p className="title-news">جدیدترین ها در اخبار ورزش</p>
             <div className="container-news">
-                <p className="title-news">جدیدترین ها در اخبار ورزش</p>
 
                 <div className="container-cards-news">
                     <img src="Imgs/img-news-1.png" className="img-card-news" />
@@ -21,6 +21,7 @@ export default function News() {
                     <p className="desc-card-news">تیم‌ها در روز اول مسابقات جام جهانی فوتبال زنان در شهر مادرید اسپانیا با یکدیگر به رقابت پرداختند.</p>
                     <button className="btn-card-news">مشاهده خبر <FaArrowLeft /></button>
                 </div>
+
             </div>
         </div>
     )
