@@ -10,15 +10,15 @@ export default function AboutSell() {
             <div className="container-about-sell">
 
                 <div className="card-about-sell">
-                    <TbTruckDelivery />
+                    <TbTruckDelivery size={40} />
                     ارسال سریع
                 </div>
                 <div className="card-about-sell">
-                    <RiPaypalLine />
+                    <RiPaypalLine size={40} />
                     پرداخت قسطی
                 </div>
                 <div className="card-about-sell">
-                    <GoHome />
+                    <GoHome size={40} />
                     پرداخت درب منزل
                 </div>
 

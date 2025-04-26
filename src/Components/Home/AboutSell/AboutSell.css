@@ -1,0 +1,33 @@
+.container-about-sell{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+    background-color: #F4FAFF;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.card-about-sell{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #CFE8FF;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+    justify-content: center;
+    gap: 20px;
+    color: #032340;
+    font-weight: 700;
+    background-color: white;
+}
+
+.title-about-sell{
+    color: #032340;
+    font-size: 24px;
+    font-weight: 700;
+    width: 350px;
+}
