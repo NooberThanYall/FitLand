@@ -29,14 +29,15 @@
     color: #01070D;
     font-size: 20px;
     font-weight: 700;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .desc-card-news{
     color: #01070D;
     width: 500px;
-    padding-right: 20px;
+    padding-right: 10px;
     margin-top: -10px;
+    position: absolute;
 }
 
 .btn-card-news{
@@ -50,8 +51,8 @@
     gap: 10px;
     cursor: pointer;
     transition: 0.3s;
-    margin-right: 20px;
-    margin-top: 40px;
+    margin-right: 10px;
+    margin-top: 100px;
 }
 
 .btn-card-news:hover{

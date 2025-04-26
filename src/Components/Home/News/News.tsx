@@ -11,7 +11,7 @@ export default function News() {
                 <div className="container-cards-news">
                     <img src="Imgs/img-news-1.png" className="img-card-news" />
                     <p className="title-card-news">افزایش دریافتی فوتبالیست ها و معافیت از سربازی</p>
-                    <p className="desc-card-news">خبرها حاکی از آن است که رییس فدراسیون فوتبال اعلام کرد در فصل جاری قرار داد هر بازیکن فوتبال 50 درصد افزایش پیدا میکند همچنین وی گفت...</p>
+                    <p className="desc-card-news">خبرها حاکی از آن است که رییس فدراسیون فوتبال اعلام کرد در فصل جاری قرار داد هر بازیکن فوتبال 50 درصد افزایش پیدا میکند</p>
                     <button className="btn-card-news">مشاهده خبر <FaArrowLeft /></button>
                 </div>
 
