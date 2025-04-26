@@ -7,6 +7,7 @@ import VipOffBike from '../../Components/Home/VipOffBike/VipOffBike'
 import MostSell from '../../Components/Home/MostSell/MostSell'
 import CampImg from '../../Components/Home/CampImg/CampImg'
 import Aerobic from '../../Components/Home/Aerobic/Aerobic'
+import News from '../../Components/Home/News/News'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <VipOffBike />
         <MostSell />
         <CampImg />
+        <News />
     </div>
   )
 }
