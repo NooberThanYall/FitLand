@@ -8,6 +8,7 @@ import MostSell from '../../Components/Home/MostSell/MostSell'
 import CampImg from '../../Components/Home/CampImg/CampImg'
 import Aerobic from '../../Components/Home/Aerobic/Aerobic'
 import News from '../../Components/Home/News/News'
+import AboutSell from '../../Components/Home/AboutSell/AboutSell'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <MostSell />
         <CampImg />
         <News />
+        <AboutSell />
     </div>
   )
 }
