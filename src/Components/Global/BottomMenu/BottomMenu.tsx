@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './BottomMenu.css'
 import './mediaBottomMenu.css'
 import { IoHomeOutline } from "react-icons/io5";
@@ -10,16 +9,10 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 
 export default function BottomMenu() {
 
-    const [show, setShow] = useState(false);
-
-    const toggelModalHandler = () => {
-        setShow((prev) => !prev);
-    };
-
     return (
         <div className='container'>
-            <MdKeyboardArrowUp className={`icon-open-bottom-menu ${show ? 'icon-go-top' : ''}`} onClick={toggelModalHandler} size={30} />
-            <div className={`container-bottom-menu ${show ? '' : 'onShow'}`}>
+            <MdKeyboardArrowUp className='icon-open-bottom-menu' size={30} />
+            <div className='container-bottom-menu'>
                 <button className="btn-icons"><IoHomeOutline className='icons-bottom-menu' size={30} /></button>
                 <button className="btn-icons"><CiUser className='icons-bottom-menu' size={30} /></button>
                 <button className="btn-icons"><CiShoppingBasket className='icons-bottom-menu' size={30} /></button>
