@@ -1,33 +1,131 @@
-.container-footer{
+.container-footer {
     width: 100%;
 }
 
-.test{
+.test {
     background-color: #021526;
     width: 102%;
     display: flex;
     justify-self: center;
-    padding-right: 50px;
     margin-bottom: -8px;
 }
 
-.container-footer-top-right{
+.container-footer-top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container-footer-top-right {
     display: flex;
     gap: 40px;
 }
 
-.titles-content-footer-top-right{
+.titles-content-footer-top-right {
     color: white;
     font-size: 14px;
 }
 
-.des-content-footer-top-right{
-    cursor: pointer;
+.des-content-footer-top-right {
     transition: 0.3s;
     color: white;
     font-size: 14px;
 }
 
-.des-content-footer-top-right:hover{
+.hover{
+    cursor: pointer;
+}
+
+.hover:hover {
     color: #FA541C;
+}
+
+.container-top-left {
+    text-align: center;
+}
+
+.title-top-left {
+    color: white;
+    font-size: 14px;
+}
+
+.container-icons-top-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-footer {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icons-footer:hover {
+    color: #FA541C;
+    transform: translateY(-3px);
+}
+
+.title-input-top-left {
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.icon-input-footer {
+    color: #868686;
+    position: relative;
+    right: 25px;
+    top: 4px;
+}
+
+.input-footer {
+    border: 1px solid #868686;
+    border-radius: 5px;
+    background: none;
+    padding: 5px;
+    padding-right: 30px;
+    outline: none;
+    color: white;
+}
+
+.btn-submit-top-left {
+    border: none;
+    color: white;
+    background-color: #FA541C;
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.container-footer-bottom {
+    margin-top: 50px;
+}
+
+.title-footer-bottom {
+    color: white;
+    font-size: 14px;
+}
+
+.desc-footer-bottom {
+    color: white;
+    font-size: 12px;
+    width: 800px;
+    padding-bottom: 50px;
+}
+
+.botto-bottom-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-right-bottom-footer{
+    color: #ADADAD;
+    font-size: 13px;
+}
+
+.text-left-bottom-footer{
+    color: #ADADAD;
+    font-size: 13px;
 }

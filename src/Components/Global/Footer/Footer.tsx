@@ -18,18 +18,18 @@ export default function Footer() {
                         <div className="container-footer-top-right">
                             <div className="container-content-footer-top-right">
                                 <p className="titles-content-footer-top-right">محبوب‌ترین‌ها</p>
-                                <p className="des-content-footer-top-right">لباس مردانه</p>
-                                <p className="des-content-footer-top-right">لباس زنانه</p>
-                                <p className="des-content-footer-top-right">دوچرخه</p>
-                                <p className="des-content-footer-top-right">کفش فوتبال</p>
+                                <p className="des-content-footer-top-right hover">لباس مردانه</p>
+                                <p className="des-content-footer-top-right hover">لباس زنانه</p>
+                                <p className="des-content-footer-top-right hover">دوچرخه</p>
+                                <p className="des-content-footer-top-right hover">کفش فوتبال</p>
                             </div>
 
                             <div className="container-content-footer-top-right">
                                 <p className="titles-content-footer-top-right">خدمات مشتریان</p>
-                                <p className="des-content-footer-top-right">سوالات متداول</p>
-                                <p className="des-content-footer-top-right">حریم خصوصی</p>
-                                <p className="des-content-footer-top-right">گزارش ایراد در سایت</p>
-                                <p className="des-content-footer-top-right">شرایط بازگرداندن محصول</p>
+                                <p className="des-content-footer-top-right hover">سوالات متداول</p>
+                                <p className="des-content-footer-top-right hover">حریم خصوصی</p>
+                                <p className="des-content-footer-top-right hover">گزارش ایراد در سایت</p>
+                                <p className="des-content-footer-top-right hover">شرایط بازگرداندن محصول</p>
                             </div>
 
                             <div className="container-content-footer-top-right">
@@ -44,14 +44,14 @@ export default function Footer() {
                         <div className="container-top-left">
                             <p className="title-top-left">برای دریافت تخفیف های بیشتر ما را دنبال کنید!</p>
                             <div className="container-icons-top-left">
-                                <FaYoutube />
-                                <IoLogoWhatsapp />
-                                <BiLogoTelegram />
-                                <RiInstagramFill />
+                                <FaYoutube size={30} className='icons-footer'/>
+                                <IoLogoWhatsapp size={30} className='icons-footer'/>
+                                <BiLogoTelegram size={30} className='icons-footer'/>
+                                <RiInstagramFill size={30} className='icons-footer'/>
                             </div>
                             <p className="title-input-top-left">خبرنامه فیت‌لند</p>
-                            <HiOutlineMail />
-                            <input type="text" placeholder='ایمیل خود را وارد کنید...' />
+                            <HiOutlineMail className='icon-input-footer' />
+                            <input type="text" placeholder='ایمیل خود را وارد کنید...' className='input-footer' />
                             <button className="btn-submit-top-left">ثبت</button>
                         </div>
 
@@ -64,10 +64,11 @@ export default function Footer() {
                     <hr />
                     <div className="botto-bottom-footer">
                         <p className="text-right-bottom-footer">تمامی حقوق مادی و معنوی این وب‌سایت برای مجموعه فیت‌لند محفوظ می‌باشد.</p>
-                        <p className="text-left-bottom-footer">طراحی شده توسط گروه 8 دوره طراحی رابط کاربری احسان عزتی</p>
+                        <p className="text-left-bottom-footer">توسعه یافته توسط <abbr style={{ color: '#FA541C' }}>پرهام محبی</abbr> و <abbr style={{ color: '#FA541C' }}>شایان جعفرنژاد</abbr></p>
                     </div>
                 </div>
             </div>
         </div>
     )
 }
+
