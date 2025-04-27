@@ -6,7 +6,6 @@ import { BiLogoTelegram } from "react-icons/bi";
 import { RiInstagramFill } from "react-icons/ri";
 import { HiOutlineMail } from "react-icons/hi";
 
-
 export default function Footer() {
     return (
         <div className='container'>
@@ -64,7 +63,7 @@ export default function Footer() {
                     <p className="text-right-bottom-footer">تمامی حقوق مادی و معنوی این وب‌سایت برای مجموعه فیت‌لند محفوظ می‌باشد.</p>
                     <p className="text-left-bottom-footer">توسعه یافته توسط <abbr style={{ color: '#FA541C' }}>پرهام محبی</abbr> و <abbr style={{ color: '#FA541C' }}>شایان جعفرنژاد</abbr></p>
                 </div>
-            </div>
+            </div>       
         </div>
     )
 }
