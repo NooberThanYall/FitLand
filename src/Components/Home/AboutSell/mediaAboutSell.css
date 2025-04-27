@@ -1,0 +1,133 @@
+@media only screen and (max-width: 890px) {
+
+    .title-about-sell {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    .title-about-sell {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .title-about-sell {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .title-about-sell {
+        font-size: 24px;
+    }
+
+    .card-about-sell{
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .title-about-sell {
+        font-size: 22px;
+    }
+
+    .card-about-sell{
+        width: 120px;
+        height: 120px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .title-about-sell {
+        font-size: 20px;
+    }
+
+    .card-about-sell{
+        width: 110px;
+        height: 110px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .title-about-sell {
+        font-size: 18px;
+    }
+
+    .card-about-sell{
+        width: 100px;
+        height: 100px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .title-about-sell {
+        font-size: 16px;
+    }
+
+    .card-about-sell{
+        width: 90px;
+        height: 90px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+
+    .title-about-sell {
+        font-size: 20px;
+        width: 270px;
+        text-align: center;
+    }
+
+    .card-about-sell{
+        width: 150px;
+        height: 150px;
+        font-size: 17px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container-about-sell{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .title-about-sell {
+        font-size: 19px;
+        width: 270px;
+    }
+
+    .card-about-sell{
+        width: 150px;
+        height: 150px;
+        font-size: 17px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container-about-sell{
+        flex-direction: column;
+    }
+}

@@ -9,20 +9,25 @@ export default function AboutSell() {
         <div className='container'>
             <div className="container-about-sell">
 
-                <div className="card-about-sell">
-                    <TbTruckDelivery size={40} />
-                    ارسال سریع
-                </div>
-                <div className="card-about-sell">
-                    <RiPaypalLine size={40} />
-                    پرداخت قسطی
-                </div>
-                <div className="card-about-sell">
-                    <GoHome size={40} />
-                    پرداخت درب منزل
+                <div className="container-text-about-sell">
+                    <p className="title-about-sell">با بیش از ده سال سابقه فروش لوازم ورزشی و لباس های ورزشی</p>
                 </div>
 
-                <p className="title-about-sell">با بیش از ده سال سابقه فروش لوازم ورزشی و لباس های ورزشی</p>
+                <div className="cards">
+                    <div className="card-about-sell">
+                        <TbTruckDelivery size={40} />
+                        ارسال سریع
+                    </div>
+                    <div className="card-about-sell">
+                        <RiPaypalLine size={40} />
+                        پرداخت قسطی
+                    </div>
+                    <div className="card-about-sell">
+                        <GoHome size={40} />
+                        پرداخت در منزل
+                    </div>
+                </div>
+
             </div>
         </div>
     )

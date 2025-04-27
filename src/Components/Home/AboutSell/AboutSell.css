@@ -8,6 +8,13 @@
     background-color: #F4FAFF;
     padding: 40px 0;
     border-radius: 10px;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .card-about-sell{
@@ -27,7 +34,6 @@
 
 .title-about-sell{
     color: #032340;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
-    width: 350px;
 }
