@@ -1,0 +1,33 @@
+.container-footer{
+    width: 100%;
+}
+
+.test{
+    background-color: #021526;
+    width: 102%;
+    display: flex;
+    justify-self: center;
+    padding-right: 50px;
+    margin-bottom: -8px;
+}
+
+.container-footer-top-right{
+    display: flex;
+    gap: 40px;
+}
+
+.titles-content-footer-top-right{
+    color: white;
+    font-size: 14px;
+}
+
+.des-content-footer-top-right{
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    font-size: 14px;
+}
+
+.des-content-footer-top-right:hover{
+    color: #FA541C;
+}
