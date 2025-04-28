@@ -1,16 +1,4 @@
-/* @media only screen and (max-width: 1400px) {
-
-    .container {
-        width: 1100px;
-    }
-
-    .form-login {
-        width: 1100px;
-    }
-
-}
-
-@media only screen and (max-width: 1150px) {
+/* @media only screen and (max-width: 1200px) {
 
     .container {
         width: 1000px;
@@ -22,7 +10,7 @@
     }
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1160px) {
 
     .container {
         width: 920px;
@@ -38,7 +26,7 @@
     }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1100px) {
 
     .container {
         width: 850px;
@@ -54,7 +42,7 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1040px) {
 
     .container {
         width: 800px;
@@ -70,7 +58,7 @@
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
 
     .container {
         width: 750px;
@@ -85,7 +73,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
 
     .container {
         width: 700px;
@@ -100,7 +88,7 @@
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 890px) {
 
     .container {
         width: 600px;
@@ -128,7 +116,7 @@
 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 840px) {
 
     .container {
         width: 550px;
@@ -143,7 +131,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     .container {
         width: 500px;
@@ -181,7 +169,7 @@
 
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 750px) {
 
     .container {
         width: 450px;
@@ -205,7 +193,7 @@
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 
     .container {
         width: 400px;
@@ -233,7 +221,7 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 640px) {
 
     .container {
         width: 350px;
@@ -262,8 +250,8 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
-
+@media only screen and (max-width: 600px) {
+    
     .container {
         width: 300px;
     }
@@ -271,20 +259,22 @@
     .form-login{
         width: 300px;
     }
-
+    
     .container-img-login{
         width: 300px;
     }
-
+    
     .container-inputs{
         width: 200px;
     }
-
+    
     .btn-login{
         width: 200px;
     }
-
+    
     .text-go-to-login{
         font-size: 12px;
     }
-} */
+}
+
+@media only screen and (max-width: 540px) {} */

@@ -60,11 +60,6 @@
     cursor: pointer;
 }
 
-.icons-footer:hover {
-    color: #FA541C;
-    transform: translateY(-3px);
-}
-
 .title-input-top-left {
     color: white;
     font-size: 14px;
@@ -131,4 +126,24 @@
     color: #ADADAD;
     font-size: 13px;
     text-align: center;
+}
+
+.youtube:hover{
+    color: #ca211b;
+    transform: translateY(-3px);
+}
+
+.whatsapp:hover{
+    color: #0aac45;
+    transform: translateY(-3px);
+}
+
+.tel:hover{
+    color: #0088cc;
+    transform: translateY(-3px);
+}
+
+.insta:hover{
+    color: #bd2457    ;
+    transform: translateY(-3px);
 }

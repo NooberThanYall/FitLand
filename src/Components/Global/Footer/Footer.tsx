@@ -42,10 +42,10 @@ export default function Footer() {
                     <div className="container-top-left">
                         <p className="title-top-left">برای دریافت تخفیف های بیشتر ما را دنبال کنید!</p>
                         <div className="container-icons-top-left">
-                            <FaYoutube size={30} className='icons-footer' />
-                            <IoLogoWhatsapp size={30} className='icons-footer' />
-                            <BiLogoTelegram size={30} className='icons-footer' />
-                            <RiInstagramFill size={30} className='icons-footer' />
+                            <FaYoutube size={30} className='icons-footer youtube' />
+                            <IoLogoWhatsapp size={30} className='icons-footer whatsapp' />
+                            <BiLogoTelegram size={30} className='icons-footer tel' />
+                            <RiInstagramFill size={30} className='icons-footer insta' />
                         </div>
                         <p className="title-input-top-left">خبرنامه فیت‌لند</p>
                         <HiOutlineMail className='icon-input-footer' />
