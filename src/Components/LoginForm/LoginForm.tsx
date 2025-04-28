@@ -20,7 +20,7 @@ export default function LoginForm() {
         </form>
 
         <div className="container-img-login">
-          <img src="Imgs/img-form-1.png" className="img-login" />
+          <img src="Imgs/img-form-1.jpg" className="img-login" />
         </div>
 
       </div>
