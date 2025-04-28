@@ -12,14 +12,15 @@ function App() {
 
   let location = useLocation()
   let isInLoginPage = location.pathname === '/Login'
+  let isInSignInPage = location.pathname === '/SignIn'
 
   return (
     <div>
-      {!isInLoginPage && <TopBar />}
-      {!isInLoginPage && <NavBar />}
+      {!isInLoginPage || isInSignInPage && <TopBar />}
+      {!isInLoginPage || isInSignInPage && <NavBar />}
       {routes}
       <BottomMenu />
-      {!isInLoginPage && <Footer />}
+      {!isInLoginPage || isInSignInPage && <Footer />}
     </div>
   )
 }
