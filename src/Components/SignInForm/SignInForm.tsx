@@ -18,7 +18,7 @@ export default function SignInForm() {
 
                     <button className="btn-sign-in" type="submit">ثبت نام</button>
 
-                    <p className="text-go-to-Login">حساب کاربری دارید؟ <Link to={'/Login'} className='link-go-to-Login'>وارد شوید</Link></p>
+                    <p className="text-go-to-login">حساب کاربری دارید؟ <Link to={'/Login'} className='link-go-to-login'>وارد شوید</Link></p>
                 </form>
 
                 <div className="container-img-sign-in">
