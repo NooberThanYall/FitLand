@@ -19,7 +19,7 @@ export default function SignInForm() {
 
             <div className="form-sign-in">
 
-                <form className="container-inputs">
+                <form className="container-inputs-sign-in">
                     <h3 className="title-form">ثبت نام</h3>
 
                     <input type="text" className="inputs-sign-in" placeholder="نام و نام خانوادگی" />

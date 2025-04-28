@@ -5,6 +5,7 @@ import Footer from './Components/Global/Footer/Footer'
 import { useRoutes } from 'react-router'
 import router from './route'
 import { useLocation } from 'react-router'
+import ScrollToTop from './Components/scrollToTop/ScrollToTop'
 
 function App() {
 
@@ -16,11 +17,13 @@ function App() {
 
   return (
     <div>
+      <ScrollToTop />
       {!isInLoginPage && !isInSignInPage && <TopBar />}
       {!isInLoginPage && !isInSignInPage && <NavBar />}
       {routes}
       <BottomMenu />
       {!isInLoginPage && !isInSignInPage && <Footer />}
+
     </div>
   )
 }

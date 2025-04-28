@@ -1,290 +1,41 @@
-/* @media only screen and (max-width: 1400px) {
-
-    .container {
-        width: 1100px;
-    }
-
-    .form-sign-in {
-        width: 1100px;
-    }
-
+@media only screen and (max-width: 1200px) {
 }
 
-@media only screen and (max-width: 1150px) {
-
-    .container {
-        width: 1000px;
-    }
-
-    .form-sign-in {
-        width: 1000px;
-        padding-right: 60px;
-    }
+@media only screen and (max-width: 1160px) {
 }
 
-@media only screen and (max-width: 1060px) {
-
-    .container {
-        width: 920px;
-    }
-
-    .form-sign-in {
-        width: 920px;
-        padding-right: 30px;
-    }
-    
-    .container-img-sign-in{
-        width: 480px;
-    }
+@media only screen and (max-width: 1100px) {
 }
 
-@media only screen and (max-width: 960px) {
-
-    .container {
-        width: 850px;
-    }
-
-    .form-sign-in {
-        width: 850px;
-        padding-right: 20px;
-    }
-    
-    .container-img-sign-in{
-        width: 450px;
-    }
+@media only screen and (max-width: 1040px) {
 }
 
-@media only screen and (max-width: 900px) {
-
-    .container {
-        width: 800px;
-    }
-
-    .form-sign-in {
-        width: 800px;
-        padding-right: 20px;
-    }
-    
-    .container-img-sign-in{
-        width: 400px;
-    }
+@media only screen and (max-width: 1000px) {
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
+}
 
-    .container {
-        width: 750px;
-    }
+@media only screen and (max-width: 890px) {
+}
 
-    .form-sign-in {
-        width: 750px;
-    }
-    
-    .container-img-sign-in{
-        width: 350px;
-    }
+@media only screen and (max-width: 840px) {
 }
 
 @media only screen and (max-width: 800px) {
-
-    .container {
-        width: 700px;
-    }
-
-    .form-sign-in {
-        width: 700px;
-    }
-    
-    .container-img-sign-in{
-        width: 300px;
-    }
 }
 
 @media only screen and (max-width: 750px) {
-
-    .container {
-        width: 600px;
-    }
-
-    .form-sign-in {
-        width: 600px;
-    }
-    
-    .container-img-sign-in{
-        width: 300px;
-    }
-
-    .container-inputs{
-        width: 250px;
-    }
-
-    .inputs-sign-in{
-        font-size: 13px;
-    }
-    
-    .btn-sign-in{
-        width: 250px;
-    }
-
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
+}
 
-    .container {
-        width: 550px;
-    }
-
-    .form-sign-in {
-        width: 550px;
-    }
-    
-    .container-img-sign-in{
-        width: 250px;
-    }
+@media only screen and (max-width: 640px) {
 }
 
 @media only screen and (max-width: 600px) {
-
-    .container {
-        width: 500px;
-    }
-
-    .form-sign-in {
-        width: 500px;
-        flex-direction: column-reverse;
-        border-radius: 10px;
-        padding-right: 0;
-    }
-
-    .container-img-sign-in{
-        width: 500px;
-        height: 630px;
-    }
     
-    .img-sign-in{
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-
-    .container-inputs{
-        width: 400px;
-    }
-
-    .btn-sign-in{
-        width: 400px;
-    }
-
-    .icon-back-sign-in {
-        display: block;
-    }
-
-
 }
 
-@media only screen and (max-width: 550px) {
-
-    .container {
-        width: 450px;
-    }
-    
-    .form-sign-in{
-        width: 450px;
-    }
-
-    .container-img-sign-in{
-        width: 450px;
-    }
-
-    .container-inputs{
-        width: 350px;
-    }
-
-    .btn-sign-in{
-        width: 350px;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
-
-    .container {
-        width: 400px;
-    }
-    
-    .form-sign-in{
-        width: 400px;
-    }
-
-    .container-img-sign-in{
-        width: 400px;
-    }
-
-    .container-inputs{
-        width: 300px;
-    }
-
-    .btn-sign-in{
-        width: 300px;
-    }
-
-
-    .text-go-to-login{
-        font-size: 14px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-
-    .container {
-        width: 350px;
-    }
-    
-    .form-sign-in{
-        width: 350px;
-    }
-
-    .container-img-sign-in{
-        width: 350px;
-        height: 450px;
-    }
-
-    .container-inputs{
-        width: 250px;
-    }
-
-    .btn-sign-in{
-        width: 250px;
-    }
-
-
-    .text-go-to-login{
-        font-size: 13px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-
-    .container {
-        width: 300px;
-    }
-    
-    .form-sign-in{
-        width: 300px;
-    }
-
-    .container-img-sign-in{
-        width: 300px;
-    }
-
-    .container-inputs{
-        width: 200px;
-    }
-
-    .btn-sign-in{
-        width: 200px;
-    }
-
-    .text-go-to-login{
-        font-size: 12px;
-    }
-} */
+@media only screen and (max-width: 540px) {}
