@@ -12,12 +12,7 @@ export default function LoginForm() {
   const goToHomePageHandler = () => {
     navigate('/')
   }
-
-
-  if (location.pathname == '/Login') {
-    document.body.className = 'noScroll-login'
-  }
-
+  
   return (
     <div className='container'>
 
