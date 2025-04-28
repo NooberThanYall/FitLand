@@ -4,18 +4,22 @@ import NavBar from './Components/Global/NavBar/NavBar'
 import Footer from './Components/Global/Footer/Footer'
 import { useRoutes } from 'react-router'
 import router from './route'
+import { useLocation } from 'react-router'
 
 function App() {
 
   const routes = useRoutes(router)
 
+  let location = useLocation()
+  let isInLoginPage = location.pathname === '/Login'
+
   return (
     <div>
-      <TopBar />
-      <NavBar />
+      {!isInLoginPage && <TopBar />}
+      {!isInLoginPage && <NavBar />}
       {routes}
       <BottomMenu />
-      <Footer />
+      {!isInLoginPage && <Footer />}
     </div>
   )
 }
