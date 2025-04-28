@@ -16,11 +16,11 @@ function App() {
 
   return (
     <div>
-      {!isInLoginPage || isInSignInPage && <TopBar />}
-      {!isInLoginPage || isInSignInPage && <NavBar />}
+      {!isInLoginPage && !isInSignInPage && <TopBar />}
+      {!isInLoginPage && !isInSignInPage && <NavBar />}
       {routes}
       <BottomMenu />
-      {!isInLoginPage || isInSignInPage && <Footer />}
+      {!isInLoginPage && !isInSignInPage && <Footer />}
     </div>
   )
 }

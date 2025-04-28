@@ -8,8 +8,8 @@
 }
 
 .container-img-sign-in{
-    width: 530px;
-    height: 580px;
+    width: 480px;
+    height: 690px;
 }
 
 .img-sign-in{
@@ -65,4 +65,15 @@
 .link-go-to-login{
     color: #FA541C;
     text-decoration: none;
+}
+
+.icon-back-sign-in{
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+}
+
+.icon-back-sign-in:hover{
+    color: #FA541C;
 }

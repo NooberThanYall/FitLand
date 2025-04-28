@@ -22,7 +22,7 @@ export default function TopBar() {
                 </div>
 
                 <div className="container-btn-login-and-btn-cart-top-bar">
-                    <Link className='btn-auth-top-bar' to={'/Login'}> <CiUser className='icon-user-top-bar' size={20} /> ثبت‌نام | ورود </Link>
+                    <Link className='btn-auth-top-bar' to={'/SignIn'}> <CiUser className='icon-user-top-bar' size={20} /> ثبت‌نام | ورود </Link>
                     <button className='btn-cart-auth-for-taplet-mode'><CiUser className='icon-user-top-bar-for-taplet-mode' size={25} /></button>
                     <button className='btn-cart-top-bar'><CiShoppingBasket size={25} className='icon-basket-top-bar' /></button>
                 </div>

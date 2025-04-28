@@ -158,7 +158,7 @@
 
     .container-img-login{
         width: 500px;
-        height: 450px;
+        height: 500px;
     }
     
     .img-login{
@@ -172,6 +172,10 @@
 
     .btn-login{
         width: 400px;
+    }
+
+    .icon-back-lgoin{
+        display: block;
     }
 
 

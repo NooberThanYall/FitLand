@@ -158,7 +158,7 @@
 
     .container-img-sign-in{
         width: 500px;
-        height: 450px;
+        height: 630px;
     }
     
     .img-sign-in{
@@ -172,6 +172,10 @@
 
     .btn-sign-in{
         width: 400px;
+    }
+
+    .icon-back-sign-in {
+        display: block;
     }
 
 
@@ -241,7 +245,7 @@
 
     .container-img-sign-in{
         width: 350px;
-        height: 400px;
+        height: 450px;
     }
 
     .container-inputs{

@@ -1,10 +1,22 @@
 import { Link } from 'react-router'
 import './LoginForm.css'
 import './mediaLoginForm.css'
+import { IoIosArrowForward } from "react-icons/io";
+import { useNavigate } from 'react-router';
 
 export default function LoginForm() {
+
+  const navigate = useNavigate()
+
+  const goToHomePageHandler = () => {
+    navigate('/')
+  }
+
   return (
     <div className="container">
+
+      <IoIosArrowForward className='icon-back-lgoin' size={20} onClick={goToHomePageHandler} />
+
       <div className="form-login">
 
         <form className="container-inputs">
@@ -22,6 +34,7 @@ export default function LoginForm() {
         <div className="container-img-login">
           <img src="Imgs/img-form-1.jpg" className="img-login" />
         </div>
+
 
       </div>
     </div>

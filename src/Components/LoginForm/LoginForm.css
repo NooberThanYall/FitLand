@@ -66,3 +66,14 @@
     color: #FA541C;
     text-decoration: none;
 }
+
+.icon-back-lgoin{
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+}
+
+.icon-back-lgoin:hover{
+    color: #FA541C;
+}
