@@ -2,14 +2,20 @@ import { Link } from 'react-router'
 import './SignInForm.css'
 import './mediaSignInForm.css'
 import { IoIosArrowForward } from "react-icons/io";
-import { useNavigate } from 'react-router';
+import { useNavigate, useLocation } from 'react-router';
+import { useEffect } from 'react';
 
 export default function SignInForm() {
 
     const navigate = useNavigate()
+    const location = useLocation()
 
     const goToHomePageHandler = () => {
         navigate('/')
+    }
+
+    if (location.pathname == '/SignIn') {
+        document.body.className = 'noScroll-signIn'
     }
 
     return (
@@ -34,7 +40,7 @@ export default function SignInForm() {
                 </form>
 
                 <div className="container-img-sign-in">
-                    <img src="Imgs/img-form-2.png" className="img-sign-in" />
+                    <img src="Imgs/img-form-1.jpg" className="img-sign-in" />
                 </div>
 
             </div>

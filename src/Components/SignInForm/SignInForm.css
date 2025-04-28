@@ -2,14 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 100px;
-    border: 1px solid #CBCBCB;
-    padding-right: 100px;
+    margin-top: -63px;
 }
 
 .container-img-sign-in{
-    width: 480px;
-    height: 690px;
+    width: 600px;
+    height: 592px;
+    margin-left: -66px;
 }
 
 .img-sign-in{
@@ -19,14 +18,16 @@
     filter: brightness(20%);
 }
 
-.container-inputs{
+.container-inputs-sign-in{
+    width: 400px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 485px;
-    text-align: right;
-    justify-content: center;
+    align-items: center;
     gap: 30px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    margin-right: 60px;
 }
 
 .title-form{
@@ -43,10 +44,11 @@
     outline: none;
     border: 1px solid #CBCBCB;
     border-radius: 5px;
+    width: 70%;
 }
 
 .btn-sign-in{
-    width: 350px;
+    width: 70%;
     color: white;
     border-radius: 5px;
     background-color: #FA541C;
@@ -55,7 +57,6 @@
     font-size: 15px;
     cursor: pointer;
 }
-
 .text-go-to-login{
     text-align: center;
     color: #121212;
@@ -71,9 +72,12 @@
     color: gray;
     cursor: pointer;
     transition: 0.3s;
-    display: none;
 }
 
 .icon-back-sign-in:hover{
     color: #FA541C;
+}
+
+.noScroll-signIn {
+    overflow-y: hidden;
 }

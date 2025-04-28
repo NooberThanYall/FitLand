@@ -13,8 +13,9 @@ export default function LoginForm() {
     navigate('/')
   }
 
-  if (location.pathname === '/Login') {
-    document.body.className = 'noScroll'
+
+  if (location.pathname == '/Login') {
+    document.body.className = 'noScroll-login'
   }
 
   return (
