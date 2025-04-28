@@ -1,13 +1,11 @@
 import { Link } from 'react-router'
 import './LoginForm.css'
 import './mediaLoginForm.css'
-import { IoIosArrowForward } from "react-icons/io";
-import { useNavigate, useLocation } from 'react-router';
+import { useNavigate } from 'react-router';
 
 export default function LoginForm() {
 
   const navigate = useNavigate()
-  const location = useLocation()
 
   const goToHomePageHandler = () => {
     navigate('/')
@@ -16,7 +14,7 @@ export default function LoginForm() {
   return (
     <div className='container'>
 
-      <IoIosArrowForward className='icon-back-lgoin' size={20} onClick={goToHomePageHandler} />
+      <p className='text-back-home-login' onClick={goToHomePageHandler}>رفتن به خانه</p>
 
       <div className="form-login">
 

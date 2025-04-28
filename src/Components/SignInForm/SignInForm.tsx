@@ -1,7 +1,6 @@
 import { Link } from 'react-router'
 import './SignInForm.css'
 import './mediaSignInForm.css'
-import { IoIosArrowForward } from "react-icons/io";
 import { useNavigate } from 'react-router';
 
 export default function SignInForm() {
@@ -15,7 +14,7 @@ export default function SignInForm() {
     return (
         <div className="container">
 
-            <IoIosArrowForward className='icon-back-sign-in' size={20} onClick={goToHomePageHandler} />
+            <p className='text-back-home-sign-in' onClick={goToHomePageHandler}>رفتن به خانه</p>
 
             <div className="form-sign-in">
 

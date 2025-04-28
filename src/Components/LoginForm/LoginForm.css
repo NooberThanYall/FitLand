@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -63px;
+    margin-top: -76px;
 }
 
 .container-img-login{
@@ -69,13 +69,13 @@
     text-decoration: none;
 }
 
-.icon-back-lgoin{
+.text-back-home-login{
     color: gray;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.icon-back-lgoin:hover{
+.text-back-home-login:hover{
     color: #FA541C;
 }
 

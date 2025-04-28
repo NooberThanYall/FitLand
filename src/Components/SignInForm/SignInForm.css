@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -63px;
+    margin-top: -76px;
 }
 
 .container-img-sign-in{
@@ -68,13 +68,13 @@
     text-decoration: none;
 }
 
-.icon-back-sign-in{
+.text-back-home-sign-in{
     color: gray;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.icon-back-sign-in:hover{
+.text-back-home-sign-in:hover{
     color: #FA541C;
 }
 
