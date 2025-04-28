@@ -58,22 +58,3 @@
     color: #FA541C;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-.icon-open-bottom-menu {
-    color: #FA541C;
-    position: fixed;
-    margin-top: 360px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: 0.2s;
-    display: none;
-}
-
-.icon-go-top{
-    margin-top: 305px;
-    transform: rotate(180deg) translateX(50%);
-}
-
-.onShow {
-    bottom: -55px;
-}
