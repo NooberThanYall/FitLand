@@ -14,11 +14,9 @@ export default function LoginForm() {
 
           <input type="number" className="inputs-login" placeholder="شماره موبایل" />
 
-          <input type="email" className="inputs-login" placeholder="ایمیل (اختیاری)" />
-
           <button className="btn-login" type="submit">ورود</button>
 
-          <p className="text-go-to-login">حساب کاربری ندارید؟ <Link to={''} className='link-go-to-sign-in'>ثبت نام کنید</Link></p>
+          <p className="text-go-to-login">حساب کاربری ندارید؟ <Link to={'/SignIn'} className='link-go-to-sign-in'>ثبت نام کنید</Link></p>
         </form>
 
         <div className="container-img-login">
