@@ -15,9 +15,9 @@ export default function NavBar() {
           <button className="links-nav-bar">لوازم ورزشی</button>
         </div>
         <div className="container-nav-left">
-          <button className="links-nav-bar"> <CiStar size={18} className='icon-nav-bar'/>جدید ترین محصولات</button>
-          <button className="links-nav-bar"> <AiOutlineThunderbolt size={18} className='icon-nav-bar'/>تخفیفات ویژه</button>
-          <button className="links-nav-bar"> <TbShoppingCartStar size={18} className='icon-nav-bar'/>پرفروش ترین ها</button>
+          <button className="links-nav-bar"> <CiStar size={18} className='icon-nav-bar' />جدید ترین محصولات</button>
+          <button className="links-nav-bar"> <AiOutlineThunderbolt size={18} className='icon-nav-bar' />تخفیفات ویژه</button>
+          <button className="links-nav-bar"> <TbShoppingCartStar size={18} className='icon-nav-bar' />پرفروش ترین ها</button>
         </div>
       </div>
     </div>
