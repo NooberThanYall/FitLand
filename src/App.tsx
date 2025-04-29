@@ -14,13 +14,6 @@ function App() {
   let isInLoginPage = location.pathname === '/Login'
   let isInSignInPage = location.pathname === '/SignIn'
 
-  if (location.pathname === '/SignIn' || location.pathname === '/Login') {
-    document.body.className = 'noScroll'
-
-  } else {
-    document.body.className = ''
-  }
-
   return (
     <div>
       <ScrollToTop />

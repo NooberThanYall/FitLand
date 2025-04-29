@@ -14,7 +14,7 @@ export default function SignInForm() {
     return (
         <div className="container">
 
-            <p className='text-back-home-sign-in' onClick={goToHomePageHandler}>برگشت به خانه</p>
+            <p className='text-back-home-sign-in' onClick={goToHomePageHandler}>خانه</p>
 
             <div className="form-sign-in">
 
