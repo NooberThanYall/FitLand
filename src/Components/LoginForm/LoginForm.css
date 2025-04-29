@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -76px;
+    margin-top: -35px;
 }
 
 .container-img-login{
@@ -20,7 +20,7 @@
 
 .container-inputs-login{
     width: 400px;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,15 +36,14 @@
 }
 
 .inputs-login{
-    text-align: right;
     padding-right: 10px;
-    height: 40px;
     color: #121212;
     font-size: 15px;
     outline: none;
     border: 1px solid #CBCBCB;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 70%;
+    padding: 8px;
 }
 
 .btn-login{
@@ -53,12 +52,11 @@
     border-radius: 5px;
     background-color: #FA541C;
     border: none;
-    height: 40px;
     font-size: 15px;
     cursor: pointer;
+    padding: 8px;
 }
-
-.text-go-to-login{
+.text-go-to-sign-in{
     text-align: center;
     color: #121212;
     font-size: 16px;
@@ -70,9 +68,10 @@
 }
 
 .text-back-home-login{
-    color: gray;
     cursor: pointer;
     transition: 0.3s;
+    position: absolute;
+    color: gray;
 }
 
 .text-back-home-login:hover{
