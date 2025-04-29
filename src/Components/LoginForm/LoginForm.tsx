@@ -14,7 +14,7 @@ export default function LoginForm() {
   return (
     <div className='container'>
 
-      <p className='text-back-home-login' onClick={goToHomePageHandler}>برگشت به خانه</p>
+      <p className='text-back-home-login' onClick={goToHomePageHandler}>خانه</p>
 
       <div className="form-login">
 
