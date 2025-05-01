@@ -1,0 +1,124 @@
+.container-filter{
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #CBCBCB;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-title-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-toggel-off-products-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-price-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-size-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-brand-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-filter{
+    color: #000306;
+    font-size: 16px;
+}
+
+.title-toggel-off-products-filter{
+    color: #000306;
+    font-size: 14px;
+}
+
+.title-price-filter{
+    color: #000306;
+    font-size: 14px;
+}
+
+.title-size-filter{
+    color: #000306;
+    font-size: 14px;
+}
+
+.title-brand-filter{
+    color: #000306;
+    font-size: 14px;
+}
+
+.remove-all-filter-btn{
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: #021526;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.remove-all-filter-btn:hover{
+    color: #FA541C;
+}
+
+.input-price-filter{
+    background-color: #EDEDED;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    padding-right: 10px;
+    outline: none;
+}
+
+.input-brand-filter{
+    background-color: #EDEDED;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    padding-right: 10px;
+    outline: none;
+}
+
+.container-btns-sizes{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(5, 35px);
+    justify-content: space-between;
+}
+
+.btns-size-filter{
+    color: #000306;
+    background-color: #EDEDED;
+    border-radius: 5px;
+    border: none;
+    width: 35px;
+    cursor: pointer;
+}
+
+.btns-size-filter-active{
+    background-color: white;
+    color: #FA541C;
+    transform: translateY(-3px);
+    border-radius: 5px;
+    border: none;
+    width: 35px;
+    cursor: pointer;
+    border: 1px solid #FA541C;
+}
