@@ -1,0 +1,43 @@
+.container-card-shop {
+    max-width: 288px;
+    background-color: #F9F9F9;
+    border-radius: 14px;
+}
+
+.img-card-shop {
+    width: 100%;
+}
+
+.title-card-shop {
+    color: #01070D;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.size-card-shop {
+    color: #01070D;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.price-card-shop {
+    color: #01070D;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.colors-card-shop {
+    padding-right: 10px;
+}
+
+.btn-submit-card-shop{
+    border: none;
+    background-color: #FA541C;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
