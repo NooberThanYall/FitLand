@@ -3,15 +3,19 @@ import './mediaNavBar.css'
 import { CiStar } from "react-icons/ci";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 import { TbShoppingCartStar } from "react-icons/tb";
+import { Link, useLocation } from 'react-router';
 
 export default function NavBar() {
+
+  let location = useLocation()
+
   return (
     <div className='container'>
       <div className="container-nav-bar">
         <div className="container-nav-right">
+          <Link to={'/Shop'} className={`links-nav-bar ${location.pathname === '/Shop' ? 'links-nav-bar-activ' : ''}`}>همه محصولات</Link>
           <button className="links-nav-bar">مردانه</button>
           <button className="links-nav-bar">زنانه</button>
-          <button className="links-nav-bar">بچگانه</button>
           <button className="links-nav-bar">لوازم ورزشی</button>
         </div>
         <div className="container-nav-left">

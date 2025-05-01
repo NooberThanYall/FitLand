@@ -1,4 +1,4 @@
-.container-nav-bar{
+.container-nav-bar {
     width: 100%;
     border-radius: 10px;
     background-color: #F9F9F9;
@@ -7,17 +7,17 @@
     padding: 15px 20px;
 }
 
-.container-nav-right{
+.container-nav-right {
     display: flex;
     gap: 20px;
 }
 
-.container-nav-left{
+.container-nav-left {
     display: flex;
     gap: 20px;
 }
 
-.links-nav-bar{
+.links-nav-bar {
     border: none;
     background: none;
     color: #000306;
@@ -27,13 +27,19 @@
     display: flex;
     align-items: center;
     gap: 2px;
+    text-decoration: none;
 }
 
-.links-nav-bar:hover{
+.links-nav-bar-activ {
     color: #FA541C;
     transform: translateY(-3px);
 }
 
-.icon-nav-bar{
+.links-nav-bar:hover {
+    color: #FA541C;
+    transform: translateY(-3px);
+}
+
+.icon-nav-bar {
     color: #FA541C;
 }
