@@ -1,0 +1,14 @@
+.open-filter-btn{
+    background: none;
+    border: none;
+    color: rgb(19, 19, 19);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.4s;
+    position: relative;
+    bottom: 20px;
+}
+
+.open-filter-btn-active{
+    color: #FA541C;
+}

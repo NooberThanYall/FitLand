@@ -1,10 +1,16 @@
+import React from 'react'
 import ToggelBtn from '../ToggelBtn/ToggelBtn'
 import './Filter.css'
 import './mediaFilter.css'
 
-export default function Filter() {
+type isShowFilterType = {
+    isShowFilter: React.ReactNode
+}
+
+export default function Filter(isShowFilter: isShowFilterType) {
+    
     return (
-        <div className="container-filter">
+        <div className={`${isShowFilter.isShowFilter ? 'container-filter-active' : 'container-filter'}`}>
 
             <div className="container-title-filter">
                 <p className="title-filter">فیلترها</p>
