@@ -3,6 +3,7 @@ import Filter from '../Filter/Filter'
 import './Shop.css'
 import './mediaShop.css'
 import CardsShop from '../CardsShop/CardsShop'
+import { FaFilter } from "react-icons/fa6";
 
 export default function Shop() {
 
@@ -13,11 +14,13 @@ export default function Shop() {
       <div className="container-shop">
 
         <div className="container-filter-at-shop">
-          <button className={`open-filter-btn ${isShowFilter ? 'open-filter-btn-active' : ''}`} onClick={() => setIsShowFilter(!isShowFilter)}>فیلتر</button>
+          <button className={`open-filter-btn ${isShowFilter ? 'open-filter-btn-active' : ''}`} onClick={() => setIsShowFilter(!isShowFilter)}>فیلتر <FaFilter /></button>
           <Filter isShowFilter={isShowFilter} />
         </div>
 
         <div className="container-cards">
+          <CardsShop />
+          <CardsShop />
           <CardsShop />
         </div>
 

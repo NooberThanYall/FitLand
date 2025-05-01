@@ -4,9 +4,12 @@
     color: rgb(19, 19, 19);
     cursor: pointer;
     font-size: 16px;
-    transition: 0.4s;
+    transition: 0.3s;
     position: relative;
     bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .open-filter-btn-active{
@@ -16,4 +19,15 @@
 .container-shop{
     display: flex;
     justify-content: space-between;
+}
+
+.container-filter-at-shop{
+    position: absolute;
+}
+
+.container-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    margin-top: 100px;
+    row-gap: 50px;
 }
