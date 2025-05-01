@@ -12,3 +12,8 @@
 .open-filter-btn-active{
     color: #FA541C;
 }
+
+.container-shop{
+    display: flex;
+    justify-content: space-between;
+}
