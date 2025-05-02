@@ -82,7 +82,7 @@
 }
 
 .remove-all-filter-btn:hover{
-    color: #EDEDED;
+    color: #FA541C;
 }
 
 .input-price-filter{
@@ -118,7 +118,7 @@
     color: #000306;
     background-color: #CBCBCB;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #CBCBCB;
     width: 35px;
     cursor: pointer;
 }
@@ -128,4 +128,15 @@
     color: #FA541C;
     background-color: white;
     border: 1px solid #FA541C;
+}
+
+.btn-submit-filter{
+    border: none;
+    width: 100%;
+    background-color: #FA541C;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
 }
