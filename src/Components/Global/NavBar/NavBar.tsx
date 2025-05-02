@@ -13,10 +13,10 @@ export default function NavBar() {
     <div className='container'>
       <div className="container-nav-bar">
         <div className="container-nav-right">
+          <Link className={`links-nav-bar ${location.pathname === '/' ? 'links-nav-bar-activ' : ''}`} to={'/'}>خانه</Link>
           <Link to={'/Shop'} className={`links-nav-bar ${location.pathname === '/Shop' ? 'links-nav-bar-activ' : ''}`}>همه محصولات</Link>
           <button className="links-nav-bar">مردانه</button>
           <button className="links-nav-bar">زنانه</button>
-          <button className="links-nav-bar">لوازم ورزشی</button>
         </div>
         <div className="container-nav-left">
           <button className="links-nav-bar"> <CiStar size={18} className='icon-nav-bar' />جدید ترین محصولات</button>
