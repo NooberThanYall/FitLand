@@ -1,5 +1,6 @@
 import Cart from "./Components/Cart/Cart";
 import LoginForm from "./Components/LoginForm/LoginForm";
+import ProductDetails from "./Components/ProductDetails/ProductDetails";
 import Shop from "./Components/Shop/Shop";
 import SignInForm from "./Components/SignInForm/SignInForm";
 import Home from "./Pages/Home/Home";
@@ -9,7 +10,8 @@ let router = [
     { path: '/Login', element: <LoginForm /> },
     { path: '/SignIn', element: <SignInForm /> },
     { path: '/Cart', element: <Cart /> },
-    { path: '/Shop', element: <Shop /> }
+    { path: '/Shop', element: <Shop /> },
+    { path: '/MainProduct', element: <ProductDetails /> }
 ]
 
 export default router

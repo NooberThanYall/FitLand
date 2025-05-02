@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './CardsShop.css'
 import './mediaCardsShop.css'
 
@@ -9,7 +10,7 @@ export default function CardsShop() {
             <p className="size-card-shop">از سایز M تا 3XL</p>
             <p className="price-card-shop">400,000 تومان</p>
             <img src="Imgs/colors.png" className='colors-card-shop' />
-            <button className='btn-submit-card-shop'>افزودن به سبد خرید</button>
+            <Link className='btn-submit-card-shop' to={'/MainProduct'}>افزودن به سبد خرید</Link>
         </div>
     )
 }
