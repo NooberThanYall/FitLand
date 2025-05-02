@@ -1,5 +1,5 @@
 .container-card-shop {
-    width: 350px;
+    width: 330px;
     background-color: #F9F9F9;
     border-radius: 14px;
 }
@@ -38,7 +38,7 @@
     color: white;
     cursor: pointer;
     margin-top: 10px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
     font-size: 15px;
 }

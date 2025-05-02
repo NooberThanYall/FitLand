@@ -22,6 +22,9 @@ export default function Shop() {
           <CardsShop />
           <CardsShop />
           <CardsShop />
+          <CardsShop />
+          <CardsShop />
+          <CardsShop />
         </div>
 
       </div>

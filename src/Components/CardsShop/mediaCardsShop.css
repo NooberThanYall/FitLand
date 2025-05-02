@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1100px) {
+    .container-card-shop {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .container-card-shop {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-card-shop {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .container-card-shop {
+        width: 265px;
+    }
+
+    .title-card-shop {
+        font-size: 17px;
+    }
+
+    .size-card-shop {
+        font-size: 13px;
+    }
+
+    .price-card-shop {
+        font-size: 15px;
+    }
+
+    .colors-card-shop{
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .container-card-shop {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .container-card-shop {
+        width: 235px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container-card-shop {
+        width: 220px;
+    }
+
+    .title-card-shop {
+        font-size: 16px;
+    }
+
+    .size-card-shop {
+        font-size: 12px;
+    }
+
+    .price-card-shop {
+        font-size: 14px;
+    }
+
+    .colors-card-shop{
+        width: 45px;
+    }
+
+    .btn-submit-card-shop{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .container-card-shop {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .container-card-shop {
+        width: 280px;
+    }
+
+    .title-card-shop {
+        font-size: 18px;
+    }
+
+    .size-card-shop {
+        font-size: 14px;
+    }
+
+    .price-card-shop {
+        font-size: 16px;
+    }
+
+    .colors-card-shop{
+        width: 55px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .container-card-shop {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .container-card-shop {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .container-card-shop {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .container-card-shop {
+        width: 300px;
+    }
+}
