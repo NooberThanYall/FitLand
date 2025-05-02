@@ -10,7 +10,7 @@ type isShowFilterType = {
 export default function Filter(isShowFilter: isShowFilterType) {
     
     return (
-        <div className={`${isShowFilter.isShowFilter ? 'container-filter-active' : 'container-filter'}`}>
+        <div className={`container-filter ${isShowFilter.isShowFilter ? 'active-container-filter' : ''}`}>
 
             <div className="container-title-filter">
                 <p className="title-filter">فیلترها</p>

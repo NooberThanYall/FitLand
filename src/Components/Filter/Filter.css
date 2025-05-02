@@ -1,4 +1,5 @@
 .container-filter{
+    background-color: white;
     width: 300px;
     padding: 20px;
     border-radius: 10px;
@@ -8,19 +9,12 @@
     position: relative;
     left: 370px;
     transition: 0.3s;
+    border: 1px solid #CBCBCB;
 }
 
-.container-filter-active{
-    background-color: #FA541C;
-    width: 300px;
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.active-container-filter{
     position: relative;
     left: 0px;
-    transition: 0.3s;
 }
 
 .container-title-filter{
@@ -54,27 +48,27 @@
 }
 
 .title-filter{
-    color: white;
+    color: #000306;
     font-size: 16px;
 }
 
 .title-toggel-off-products-filter{
-    color: white;
+    color: #000306;
     font-size: 14px;
 }
 
 .title-price-filter{
-    color: white;
+    color: #000306;
     font-size: 14px;
 }
 
 .title-size-filter{
-    color: white;
+    color: #000306;
     font-size: 14px;
 }
 
 .title-brand-filter{
-    color: white;
+    color: #000306;
     font-size: 14px;
 }
 
@@ -82,7 +76,7 @@
     border: none;
     background: none;
     font-size: 14px;
-    color: white;
+    color: #000306;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -92,25 +86,25 @@
 }
 
 .input-price-filter{
-    background-color: white;
+    background-color: #EDEDED;
     width: 200px;
     border: none;
     border-radius: 7px;
     padding: 5px;
     padding-right: 10px;
     outline: none;
-    color: #FA541C;
+    color: #000306;
 }
 
 .input-brand-filter{
-    background-color: white;
+    background-color: #EDEDED;
     width: 200px;
     border: none;
     border-radius: 7px;
     padding: 5px;
     padding-right: 10px;
     outline: none;
-    color: #FA541C;
+    color: #000306;
 }
 
 .container-btns-sizes{
@@ -121,8 +115,8 @@
 }
 
 .btns-size-filter{
-    color: #FA541C;
-    background-color: white;
+    color: #000306;
+    background-color: #CBCBCB;
     border-radius: 5px;
     border: none;
     width: 35px;
@@ -131,7 +125,7 @@
 
 .btns-size-filter-active{
     transform: translateY(-3px);
-    border: none;
-    width: 35px;
-    cursor: pointer;
+    color: #FA541C;
+    background-color: white;
+    border: 1px solid #FA541C;
 }
