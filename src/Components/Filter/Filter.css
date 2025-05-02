@@ -17,12 +17,6 @@
     left: 0px;
 }
 
-.container-title-filter{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .container-toggel-off-products-filter{
     display: flex;
     align-items: center;
@@ -48,8 +42,14 @@
 }
 
 .title-filter{
-    color: #000306;
-    font-size: 16px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #FA541C;
+    width: 100%;
+    color: white;
+    margin-top: -20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .title-toggel-off-products-filter{
@@ -70,19 +70,6 @@
 .title-brand-filter{
     color: #000306;
     font-size: 14px;
-}
-
-.remove-all-filter-btn{
-    border: none;
-    background: none;
-    font-size: 14px;
-    color: #000306;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.remove-all-filter-btn:hover{
-    color: #FA541C;
 }
 
 .input-price-filter{

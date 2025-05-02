@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import ToggelBtn from '../ToggelBtn/ToggelBtn'
+import React, { useEffect, useState } from 'react'
 import './Filter.css'
 import './mediaFilter.css'
+import './ToggelBtn.css'
 
 type isShowFilterType = {
     isShowFilter: React.ReactNode
@@ -15,17 +15,27 @@ export default function Filter(isShowFilter: isShowFilterType) {
     const [isActive4, setIsActive4] = useState(false)
     const [isActive5, setIsActive5] = useState(false)
 
+    const [isSelected, setIsSelected] = useState(false)
+
     return (
         <div className={`container-filter ${isShowFilter.isShowFilter ? 'active-container-filter' : ''}`}>
 
-            <div className="container-title-filter">
-                <p className="title-filter">فیلترها</p>
-                <button className="remove-all-filter-btn">حذف فیلترها</button>
-            </div>
+            <p className="title-filter">فیلترها</p>
 
             <div className="container-toggel-off-products-filter">
                 <p className='title-toggel-off-products-filter'>محصولات تخفیف دار </p>
-                <ToggelBtn />
+                <div className='toggler'>
+                    <input id="toggler-1" name="toggler-1" type="checkbox" defaultValue={1} onClick={() => setIsSelected(!isSelected)} />
+                    <label htmlFor="toggler-1">
+                        <svg className="toggler-on" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                            <polyline className="path check" points="100.2,40.2 51.5,88.8 29.8,67.5" />
+                        </svg>
+                        <svg className="toggler-off" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                            <line className="path line" x1="34.4" y1="34.4" x2="95.8" y2="95.8" />
+                            <line className="path line" x1="95.8" y1="34.4" x2="34.4" y2="95.8" />
+                        </svg>
+                    </label>
+                </div>
             </div>
 
             <div className="container-price-filter">
