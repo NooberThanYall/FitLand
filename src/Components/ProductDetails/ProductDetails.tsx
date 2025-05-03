@@ -5,6 +5,7 @@ import { FiMinus } from "react-icons/fi";
 import { LuShoppingCart } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
 import { useState } from 'react';
+import Comments from './Comments/Comments';
 
 
 export default function ProductDetails() {
@@ -56,6 +57,12 @@ export default function ProductDetails() {
       <div className="container-product-info">
         <p className="text-info-product">{isShowMore ? infoProduct : infoProduct.slice(0, 306)}{!isShowMore && showDot}</p>
         <button className='btn-show-more-less-text-product-info' onClick={() => setIsShowMore(!isShowMore)}>{isShowMore ? showless : showMore}</button>
+      </div>
+
+      <div className="container-comments-and-add-comments">
+        <div className="container-comments">
+          <Comments />
+        </div>
       </div>
 
     </div>
