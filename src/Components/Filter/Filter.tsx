@@ -14,8 +14,8 @@ export default function Filter(isShowFilter: isShowFilterType) {
     const [isActive3, setIsActive3] = useState(false)
     const [isActive4, setIsActive4] = useState(false)
     const [isActive5, setIsActive5] = useState(false)
-
-    const [isSelected, setIsSelected] = useState(false)
+    const [isActive6, setIsActive6] = useState(false)
+    const [isActive7, setIsActive7] = useState(false)
 
     return (
         <div className={`container-filter ${isShowFilter.isShowFilter ? 'active-container-filter' : ''}`}>
@@ -25,7 +25,7 @@ export default function Filter(isShowFilter: isShowFilterType) {
             <div className="container-toggel-off-products-filter">
                 <p className='title-toggel-off-products-filter'>محصولات تخفیف دار </p>
                 <div className='toggler'>
-                    <input id="toggler-1" name="toggler-1" type="checkbox" defaultValue={1} onClick={() => setIsSelected(!isSelected)} />
+                    <input id="toggler-1" name="toggler-1" type="checkbox" defaultValue={1} />
                     <label htmlFor="toggler-1">
                         <svg className="toggler-on" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
                             <polyline className="path check" points="100.2,40.2 51.5,88.8 29.8,67.5" />
@@ -56,7 +56,10 @@ export default function Filter(isShowFilter: isShowFilterType) {
 
             <div className="container-brand-filter">
                 <p className="title-brand-filter">برند:</p>
-                <input type="text" placeholder='جستجو' className='input-brand-filter' />
+                <div className="container-brand-product-filter">
+                    <button className={`btns-brand-filter ${isActive6 ? 'btns-brand-filter-active' : ''}`} onClick={() => setIsActive6(!isActive6)}>Nike</button>
+                    <button className={`btns-brand-filter ${isActive7 ? 'btns-brand-filter-active' : ''}`} onClick={() => setIsActive7(!isActive7)}>Puma</button>
+                </div>
             </div>
 
             <button className='btn-submit-filter'>اعمال فیلترها</button>
