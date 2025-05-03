@@ -106,3 +106,13 @@
     height: 40px;
     cursor: pointer;
 }
+
+.icon-like-product{
+    color: gray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.like-active {
+    color: red;
+}
