@@ -117,3 +117,29 @@
 .like-active {
     color: red;
 }
+
+.container-product-info{
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 100px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.text-info-product{
+    color: gray;
+    font-size: 20px;
+    width: 100%;
+}
+
+.btn-show-more-less-text-product-info{
+    border: 1px solid #FA541C;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: none;
+    color: #FA541C;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}

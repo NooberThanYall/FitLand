@@ -10,8 +10,12 @@ import { useState } from 'react';
 export default function ProductDetails() {
 
   const [countProduct, setCountProduct] = useState<number>(1)
-
   const [isLiked, setIsLiked] = useState<boolean>(false)
+  const [isShowMore, setIsShowMore] = useState<boolean>(false)
+  const [showMore, setShowMore] = useState<string>('نمایش بیشتر')
+  const [showless, setShowless] = useState<string>('نمایش کمتر')
+  const [showDot, setShowDot] = useState<string>('...')
+  const [infoProduct, setInfoProduct] = useState<string>('یکی از دلایلی که باعث شده نایک به انتخاب اول تمامی ورزشکار های دنیا تبدیل شود. تکنولوژی ها و ویژگی های پیشرفته ای است که نایکی در تولید کفش های خود از آن بهره میبرد. کفش های نایک علاوه بر داشتن تکنولوژی هایی مانند Nike Air, Zoomx, Nike React و … دارای برخی ویژگی ها مثل وزن سبک، انعطاف پذیری بالا، تنفس پذیری و قابلیت تهویه هوا، بازگشت انرژی و راحتی فوق العاده است که در ادامه به آنها میپردازیم. ...اما توجه داشته باشید که تنها کفش های نایک اصل دارای چنین مشخصاتی هستند و کفش های کپی، های کپی، کوالی مستر و … فاقد هر گونه تکنولوژی و فناوری هستند و تنها ظاهر نمونه اورجینال کفش را تولید میکنند. اگر قصد خرید کفش نایک اصل را دارید یا میخواهید از اصل بودن کفش نایک خود مطمئن شوید توصیه میکنیم مقاله تشخیص کفش نایک اصل را مطالعه کنید.')
 
   const minusProductCount = () => {
     if (countProduct > 1) {
@@ -48,12 +52,12 @@ export default function ProductDetails() {
         </div>
 
       </div>
-      
+
       <div className="container-product-info">
-        <p className="text-info-product">یکی از دلایلی که باعث شده نایک به انتخاب اول تمامی ورزشکار های دنیا تبدیل شود. تکنولوژی ها و ویژگی های پیشرفته ای است که نایکی در تولید کفش های خود از آن بهره میبرد. کفش های نایک علاوه بر داشتن تکنولوژی هایی مانند Nike Air, Zoomx, Nike React و … دارای برخی ویژگی ها مثل وزن سبک، انعطاف پذیری بالا، تنفس پذیری و قابلیت تهویه هوا، بازگشت انرژی و راحتی فوق العاده است که در ادامه به آنها میپردازیم.
-          اما توجه داشته باشید که تنها کفش های نایک اصل دارای چنین مشخصاتی هستند و کفش های کپی، های کپی، کوالی مستر و … فاقد هر گونه تکنولوژی و فناوری هستند و تنها ظاهر نمونه اورجینال کفش را تولید میکنند. اگر قصد خرید کفش نایک اصل را دارید یا میخواهید از اصل بودن کفش نایک خود مطمئن شوید توصیه میکنیم مقاله تشخیص کفش نایک اصل را مطالعه کنید.</p>
+        <p className="text-info-product">{isShowMore ? infoProduct.slice(0, 729) : infoProduct.slice(0, 306)}{!isShowMore && showDot}</p>
+        <button className='btn-show-more-less-text-product-info' onClick={() => setIsShowMore(!isShowMore)}>{isShowMore ? showless : showMore}</button>
       </div>
-      
+
     </div>
   )
 }
