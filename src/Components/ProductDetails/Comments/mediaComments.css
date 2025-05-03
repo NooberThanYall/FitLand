@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1040px){
+    .btn-add-comments{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .btn-add-comments{
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 430px){
+    .img-user{
+        display: none;
+    }
+
+    .text-comment{
+        padding-right: 15px;
+    }
+}

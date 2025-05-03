@@ -113,7 +113,7 @@
         width: 310px;
     }
 
-    .container-main-product{
+    .container-main-product {
         align-items: center;
     }
 
@@ -121,13 +121,13 @@
         width: 41.3%;
     }
 
-    .container-sizes-main-product{
+    .container-sizes-main-product {
         gap: 17px;
     }
 }
 
-@media only screen and (max-width: 750px){
-    .container-details-main-product{
+@media only screen and (max-width: 750px) {
+    .container-details-main-product {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -137,11 +137,11 @@
         margin-top: -5px;
     }
 
-    .container-add-and-remove-product{
+    .container-add-and-remove-product {
         flex-direction: column;
     }
 
-    .title-size-main-product{
+    .title-size-main-product {
         margin-top: 10px;
     }
 
@@ -154,7 +154,7 @@
     }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .container-img-main-product {
         width: 70%;
     }
@@ -164,7 +164,7 @@
     }
 }
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 640px) {
     .container-img-main-product {
         width: 80%;
     }
@@ -172,10 +172,23 @@
     .container-off-last-price-main-product {
         width: 60.5%;
     }
+
+    .container-comments-and-add-comments {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .container-comments {
+        width: 100%;
+    }
+
+    .container-add-comment {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width: 600px){
-    .container-main-product{
+@media only screen and (max-width: 600px) {
+    .container-main-product {
         flex-direction: column;
         margin-top: 50px;
     }
@@ -217,13 +230,13 @@
         width: 45.5%;
     }
 
-    .text-info-product{
+    .text-info-product {
         font-size: 18px;
     }
 }
 
-@media only screen and (max-width: 430px){
-    .container-details-main-product{
+@media only screen and (max-width: 430px) {
+    .container-details-main-product {
         width: 350px;
     }
 
@@ -260,13 +273,13 @@
         height: 35px;
     }
 
-    .text-info-product{
+    .text-info-product {
         font-size: 17px;
     }
 }
 
-@media only screen and (max-width: 400px){
-    .container-details-main-product{
+@media only screen and (max-width: 400px) {
+    .container-details-main-product {
         width: 300px;
     }
 
@@ -307,7 +320,7 @@
         height: 33px;
     }
 
-    .text-info-product{
+    .text-info-product {
         font-size: 16px;
     }
 }
