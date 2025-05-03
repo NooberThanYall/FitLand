@@ -208,3 +208,12 @@
     background-color: #FA541C;
     transform: translateY(-3px);
 }
+
+.title-same-product{
+    color: #032340;
+    font-size: 26px;
+    margin-top: 100px;
+    position: relative;
+    top: 70px;
+    font-weight: 700;
+}

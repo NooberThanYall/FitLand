@@ -6,6 +6,7 @@ import { LuShoppingCart } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
 import { useState } from 'react';
 import Comments from './Comments/Comments';
+import CardsShop from '../CardsShop/CardsShop';
 
 
 export default function ProductDetails() {
@@ -73,7 +74,13 @@ export default function ProductDetails() {
           <input type="" placeholder='نظر شما' className='inputs-add-comment-big' />
           <button className='btn-add-comments'>ثبت نظر</button>
         </div>
+      </div>
 
+      <p className="title-same-product">محصولات مرتبط</p>
+      <div className="container-cards">
+        <CardsShop />
+        <CardsShop />
+        <CardsShop />
       </div>
 
     </div>
