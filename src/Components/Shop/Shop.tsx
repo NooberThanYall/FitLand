@@ -12,6 +12,7 @@ export default function Shop() {
   return (
     <div className='container'>
       <div className="container-shop">
+        <p className="title-all-products">محصولات</p>
 
         <div className="container-filter-at-shop">
           <button className={`open-filter-btn ${isShowFilter ? 'open-filter-btn-active' : ''}`} onClick={() => setIsShowFilter(!isShowFilter)}>فیلتر <FaFilter /></button>

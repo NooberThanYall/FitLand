@@ -61,6 +61,7 @@ export default function ProductDetails() {
         <button className='btn-show-more-less-text-product-info' onClick={() => setIsShowMore(!isShowMore)}>{isShowMore ? showless : showMore}</button>
       </div>
 
+        <p className="title-comments">نظرات کاربران</p>
       <div className="container-comments-and-add-comments">
         <div className="container-comments">
           <Comments />

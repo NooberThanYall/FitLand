@@ -33,3 +33,11 @@
     width: 100%;
     justify-content: space-between;
 }
+
+.title-all-products{
+    position: absolute;
+    color: #032340;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 40px;
+}

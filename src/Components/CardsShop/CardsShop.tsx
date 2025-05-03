@@ -10,7 +10,7 @@ export default function CardsShop() {
             <p className="size-card-shop">از سایز M تا 3XL</p>
             <p className="price-card-shop">400,000 تومان</p>
             <img src="Imgs/colors.png" className='colors-card-shop' />
-            <Link className='btn-submit-card-shop' to={'/MainProduct'}>افزودن به سبد خرید</Link>
+            <Link className='btn-submit-card-shop' to={'/MainProduct'}>مشاهده بیشتر</Link>
         </div>
     )
 }
