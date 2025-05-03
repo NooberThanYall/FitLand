@@ -7,6 +7,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { useState } from 'react';
 import Comments from './Comments/Comments';
 import CardsShop from '../CardsShop/CardsShop';
+import AboutSell from '../Home/AboutSell/AboutSell';
 
 
 export default function ProductDetails() {
@@ -82,6 +83,8 @@ export default function ProductDetails() {
         <CardsShop />
         <CardsShop />
       </div>
+
+      <AboutSell />
 
     </div>
   )
