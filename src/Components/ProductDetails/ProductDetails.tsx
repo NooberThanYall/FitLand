@@ -56,12 +56,13 @@ export default function ProductDetails() {
 
       </div>
 
+      <p className="title-product-info">درباره محصول</p>
       <div className="container-product-info">
         <p className="text-info-product">{isShowMore ? infoProduct : infoProduct.slice(0, 306)}{!isShowMore && showDot}</p>
         <button className='btn-show-more-less-text-product-info' onClick={() => setIsShowMore(!isShowMore)}>{isShowMore ? showless : showMore}</button>
       </div>
 
-        <p className="title-comments">نظرات کاربران</p>
+      <p className="title-comments">نظرات کاربران</p>
       <div className="container-comments-and-add-comments">
         <div className="container-comments">
           <Comments />
