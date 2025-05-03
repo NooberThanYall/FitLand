@@ -9,8 +9,8 @@ import router from './route'
 function App() {
 
   const routes = useRoutes(router)
-
   let location = useLocation()
+  
   let isInLoginPage = location.pathname === '/Login'
   let isInSignInPage = location.pathname === '/SignIn'
 

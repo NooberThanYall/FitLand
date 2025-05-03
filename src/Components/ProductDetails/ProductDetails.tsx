@@ -1,7 +1,7 @@
 import './ProductDetails.css'
 import './mediaProductDetails.css'
 import { FiPlus } from "react-icons/fi";
-import { FaMinus } from 'react-icons/fa';
+import { FiMinus } from "react-icons/fi";
 import { LuShoppingCart } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa6";
 
@@ -29,7 +29,7 @@ export default function ProductDetails() {
             <p className="sizes-main-product">XL</p>
           </div>
           <div className="container-add-and-remove-product">
-            <div className="plus-minus-product-main-product"><FiPlus style={{cursor: 'pointer'}} /> 1 <FaMinus style={{cursor: 'pointer'}} /></div>
+            <div className="plus-minus-product-main-product"><FiPlus style={{cursor: 'pointer'}} /> 1 <FiMinus style={{cursor: 'pointer'}} /></div>
             <button className='btn-add-product-to-cart-main-product'>افزودن به سبد خرید <LuShoppingCart size={20} /></button>
             <FaRegHeart size={20} style={{color: 'gray', cursor: 'pointer'}} />
           </div>

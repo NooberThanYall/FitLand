@@ -19,19 +19,19 @@
 
 .title-product-main-product{
     color: #000306;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
 }
 
 .new-price-product-main-product{
     color: #032340;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .container-off-last-price-main-product{
     display: flex;
-    width: 25%;
+    width: 23.5%;
     justify-content: space-between;
     align-items: center;
     margin-top: -40px;
@@ -39,12 +39,12 @@
 
 .last-price-product-main-product{
     color: #ADADAD;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: line-through;
 }
 
 .off-product-main-product{
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     background-color: #FA541C;
     padding-top: 2px;
@@ -55,7 +55,7 @@
 
 .title-size-main-product{
     color: #000306;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     margin-top: -10px;
 }
