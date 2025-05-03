@@ -69,10 +69,9 @@ export default function ProductDetails() {
 
         <div className="container-add-comment">
           <div className="title-add-comment">نظرت رو برامون بنویس</div>
-          <hr />
           <input type="text" placeholder='نام' className='inputs-add-comment' />
           <input type="" placeholder='نظر شما' className='inputs-add-comment-big' />
-          <button>ثبت نظر</button>
+          <button className='btn-add-comments'>ثبت نظر</button>
         </div>
 
       </div>
