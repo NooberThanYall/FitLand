@@ -1,8 +1,8 @@
 .comments-provider{
-    border: 1px solid #CBCBCB;
-    border-radius: 10px;
-    padding: 10px;
-    width: 50%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
 }
 
 .container-name-and-img-user{
@@ -18,8 +18,9 @@
 }
 
 .name-user{
-    color: black;
+    color: gray;
     font-size: 16px;
+    font-weight: 700;
 }
 
 .text-comment{

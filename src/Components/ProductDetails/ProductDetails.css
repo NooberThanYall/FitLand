@@ -143,3 +143,20 @@
     text-align: center;
     cursor: pointer;
 }
+
+.container-comments-and-add-comments{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-comments{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 55%;
+}
+
+.container-add-comment{
+    width: 40%;
+}
