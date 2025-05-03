@@ -54,7 +54,7 @@ export default function ProductDetails() {
       </div>
 
       <div className="container-product-info">
-        <p className="text-info-product">{isShowMore ? infoProduct.slice(0, 729) : infoProduct.slice(0, 306)}{!isShowMore && showDot}</p>
+        <p className="text-info-product">{isShowMore ? infoProduct : infoProduct.slice(0, 306)}{!isShowMore && showDot}</p>
         <button className='btn-show-more-less-text-product-info' onClick={() => setIsShowMore(!isShowMore)}>{isShowMore ? showless : showMore}</button>
       </div>
 
