@@ -1,6 +1,7 @@
 .container-main-product{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .container-img-main-product{
