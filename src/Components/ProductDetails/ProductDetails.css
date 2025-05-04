@@ -4,6 +4,10 @@
     margin-top: 100px;
 }
 
+.blur-page{
+    filter: blur(10px);
+}
+
 .container-img-main-product{
     width: 400px;
 }
@@ -232,4 +236,17 @@
     font-weight: 700;
     position: relative;
     top: 80px;
+}
+
+.container-modal-in-main-product{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    display: none;
+}
+
+.active-modal{
+    display: block;
 }

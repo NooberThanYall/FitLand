@@ -19,6 +19,7 @@ export default function ProductDetails() {
   const [showMore, setShowMore] = useState<string>('نمایش بیشتر')
   const [showless, setShowless] = useState<string>('نمایش کمتر')
   const [showDot, setShowDot] = useState<string>('...')
+  const [isShowModal, setIsShowModal] = useState<boolean>(false)
   const [infoProduct, setInfoProduct] = useState<string>('یکی از دلایلی که باعث شده نایک به انتخاب اول تمامی ورزشکار های دنیا تبدیل شود. تکنولوژی ها و ویژگی های پیشرفته ای است که نایکی در تولید کفش های خود از آن بهره میبرد. کفش های نایک علاوه بر داشتن تکنولوژی هایی مانند Nike Air, Zoomx, Nike React و … دارای برخی ویژگی ها مثل وزن سبک، انعطاف پذیری بالا، تنفس پذیری و قابلیت تهویه هوا، بازگشت انرژی و راحتی فوق العاده است که در ادامه به آنها میپردازیم. ...اما توجه داشته باشید که تنها کفش های نایک اصل دارای چنین مشخصاتی هستند و کفش های کپی، های کپی، کوالی مستر و … فاقد هر گونه تکنولوژی و فناوری هستند و تنها ظاهر نمونه اورجینال کفش را تولید میکنند. اگر قصد خرید کفش نایک اصل را دارید یا میخواهید از اصل بودن کفش نایک خود مطمئن شوید توصیه میکنیم مقاله تشخیص کفش نایک اصل را مطالعه کنید.')
 
   const minusProductCount = () => {
@@ -29,7 +30,12 @@ export default function ProductDetails() {
 
   return (
     <div className='container'>
-      <div className="container-main-product">
+      
+      <div className={`container-modal-in-main-product ${isShowModal ? 'active-modal' : ''}`}>
+        <Modal />
+      </div>
+
+      <div className={`container-main-product ${isShowModal ? 'blur-page' : ''}`}>
 
         <div className="container-img-main-product">
           <img src="Imgs/img-product.png" className='img-main-product' />
@@ -50,7 +56,7 @@ export default function ProductDetails() {
           </div>
           <div className="container-add-and-remove-product">
             <div className="plus-minus-product-main-product"><FiPlus style={{ cursor: 'pointer' }} onClick={() => setCountProduct(countProduct + 1)} /> {countProduct} <FiMinus style={{ cursor: 'pointer' }} onClick={minusProductCount} /></div>
-            <button className='btn-add-product-to-cart-main-product'>افزودن به سبد خرید <LuShoppingCart size={20} /></button>
+            <button className='btn-add-product-to-cart-main-product' onClick={() => setIsShowModal(true)}>افزودن به سبد خرید <LuShoppingCart size={20} /></button>
             <FaRegHeart size={20} onClick={() => setIsLiked(!isLiked)} className={`icon-like-product ${isLiked ? 'like-active' : ''}`} />
           </div>
         </div>
@@ -88,10 +94,6 @@ export default function ProductDetails() {
       </div>
 
       <AboutSell />
-
-      <div className="container-modal-in-main-product">
-        <Modal />
-      </div>
 
     </div>
   )
