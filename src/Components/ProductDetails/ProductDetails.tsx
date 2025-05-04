@@ -8,6 +8,7 @@ import { useState } from 'react';
 import Comments from './Comments/Comments';
 import CardsShop from '../CardsShop/CardsShop';
 import AboutSell from '../Home/AboutSell/AboutSell';
+import Modal from '../Modal/Modal';
 
 
 export default function ProductDetails() {
@@ -87,6 +88,10 @@ export default function ProductDetails() {
       </div>
 
       <AboutSell />
+
+      <div className="container-modal-in-main-product">
+        <Modal />
+      </div>
 
     </div>
   )
