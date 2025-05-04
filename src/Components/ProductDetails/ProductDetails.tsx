@@ -9,7 +9,7 @@ import Comments from './Comments/Comments';
 import CardsShop from '../CardsShop/CardsShop';
 import AboutSell from '../Home/AboutSell/AboutSell';
 import Modal from '../Modal/Modal';
-
+import { useRef } from 'react';
 
 export default function ProductDetails() {
 
@@ -28,14 +28,35 @@ export default function ProductDetails() {
     }
   }
 
+  const setTrueForShowModalHander = () => {
+    setIsShowModal(true)
+  }
+
+  const targetRef = useRef(null);
+
+  const scrollToTarget = () => {
+    targetRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const btnAddProductHandler = () => {
+    setTrueForShowModalHander()
+    scrollToTarget()
+  }
+
+  if (isShowModal) {
+    document.body.style.overflowY = 'hidden'
+  } else {
+    document.body.style.overflowY = 'scroll'
+  }
+
   return (
     <div className='container'>
-      
+
       <div className={`container-modal-in-main-product ${isShowModal ? 'active-modal' : ''}`}>
-        <Modal />
+        <Modal setIsShowModal={setIsShowModal} />
       </div>
 
-      <div className={`container-main-product ${isShowModal ? 'blur-page' : ''}`}>
+      <div className={`container-main-product ${isShowModal ? 'blur-page' : ''}`} ref={targetRef} >
 
         <div className="container-img-main-product">
           <img src="Imgs/img-product.png" className='img-main-product' />
@@ -56,7 +77,7 @@ export default function ProductDetails() {
           </div>
           <div className="container-add-and-remove-product">
             <div className="plus-minus-product-main-product"><FiPlus style={{ cursor: 'pointer' }} onClick={() => setCountProduct(countProduct + 1)} /> {countProduct} <FiMinus style={{ cursor: 'pointer' }} onClick={minusProductCount} /></div>
-            <button className='btn-add-product-to-cart-main-product' onClick={() => setIsShowModal(true)}>افزودن به سبد خرید <LuShoppingCart size={20} /></button>
+            <button className='btn-add-product-to-cart-main-product' onClick={btnAddProductHandler}>افزودن به سبد خرید <LuShoppingCart size={20} /></button>
             <FaRegHeart size={20} onClick={() => setIsLiked(!isLiked)} className={`icon-like-product ${isLiked ? 'like-active' : ''}`} />
           </div>
         </div>

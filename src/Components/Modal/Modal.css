@@ -34,7 +34,7 @@
 }
 
 .img-product-modal{
-    width: 6vw;
+    width: 70px;
 }
 
 .name-product-modal{
@@ -57,4 +57,5 @@
     margin-top: 30px;
     cursor: pointer;
     z-index: 5;
+    text-decoration: none;
 }
