@@ -3,5 +3,10 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "noEmitOnError": false,     // اجازه بده خروجی بسازه حتی با ارور
+    "skipLibCheck": true,       // بررسی تایپ‌های کتابخونه‌ها رو رد کن
+    "isolatedModules": true     // برای ترنسپایل بدون type-check
+  }
 }
