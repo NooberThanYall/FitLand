@@ -19,23 +19,26 @@ export default function CardBasket() {
     return (
         <div className='card-basket-wrraper'>
 
-            <div className="container-img-main-product">
-                <img src="Imgs/img-product.png" className='img-main-product' />
+            <div className="container-img-card-basket">
+                <img src="Imgs/img-product.png" className='img-card-basket' />
             </div>
 
-            <div className="container-name-and-icon-delete">
-                <p className="title-card-basket">تیشرت زنانه</p>
-                <MdDeleteOutline />
+            <div className="container-details-card-basket">
+                <div className="container-name-and-icon-delete">
+                    <p className="title-card-basket">تیشرت زنانه</p>
+                    <MdDeleteOutline size={25} className='icon-delete-card-at-basket' />
+                </div>
+                <p className="new-price-card-basket">۶۰۰,۰۰۰ تومان</p>
+                <p className="last-price-card-basket">1,200,000</p>
+                <p className="title-size-card-basket">سایز</p>
+                <div className="container-sizes-card-basket">
+                    <p className="sizes-card-basket">M</p>
+                    <p className="sizes-card-basket">L</p>
+                    <p className="sizes-card-basket">XL</p>
+                </div>
+                <div className="plus-minus-card-basket"><FiPlus style={{ cursor: 'pointer' }} onClick={() => setCountProduct(countProduct + 1)} /> {countProduct} <FiMinus style={{ cursor: 'pointer' }} onClick={minusProductCount} /></div>
             </div>
-            <p className="new-price-card-basket">۶۰۰,۰۰۰ تومان</p>
-            <p className="last-price-card-basket">1,200,000</p>
-            <p className="title-size-card-basket">سایز</p>
-            <div className="container-sizes-card-basket">
-                <p className="sizes-card-basket">M</p>
-                <p className="sizes-card-basket">L</p>
-                <p className="sizes-card-basket">XL</p>
-            </div>
-            <div className="plus-minus-card-basket"><FiPlus style={{ cursor: 'pointer' }} onClick={() => setCountProduct(countProduct + 1)} /> {countProduct} <FiMinus style={{ cursor: 'pointer' }} onClick={minusProductCount} /></div>
+
         </div>
     )
 }
