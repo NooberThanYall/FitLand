@@ -1,0 +1,5 @@
+.container-cards-in-shop{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

@@ -7,6 +7,8 @@ export default function Cart() {
     <div className='container'>
       <div className="container-cards-in-shop">
         <CardBasket />
+        <CardBasket />
+        <CardBasket />
       </div>
     </div>
   )
