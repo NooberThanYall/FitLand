@@ -36,7 +36,7 @@ export default function CardBasket() {
                     <p className="sizes-card-basket">L</p>
                     <p className="sizes-card-basket">XL</p>
                 </div>
-                <div className="plus-minus-card-basket"><FiPlus style={{ cursor: 'pointer' }} onClick={() => setCountProduct(countProduct + 1)} /> {countProduct} <FiMinus style={{ cursor: 'pointer' }} onClick={minusProductCount} /></div>
+                <p className='count-product'>تعداد: 2</p>
             </div>
 
         </div>
