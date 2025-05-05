@@ -8,6 +8,8 @@ export default function Cart() {
       <p className='title-basket'>سبد خرید</p>
       <div className="container-cards-in-shop">
         <CardBasket />
+        <CardBasket />
+        <CardBasket />
       </div>
     </div>
   )
