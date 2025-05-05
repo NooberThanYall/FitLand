@@ -3,3 +3,9 @@
     flex-direction: column;
     gap: 30px;
 }
+
+.title-basket{
+    color: #032340;
+    font-size: 26px;
+    font-weight: 700;
+}

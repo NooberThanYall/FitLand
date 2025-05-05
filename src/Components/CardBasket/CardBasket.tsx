@@ -1,32 +1,20 @@
 import './CardBasket.css'
 import './mediaCardBasket.css'
-import { useState } from 'react'
-import { FiPlus } from "react-icons/fi";
-import { FiMinus } from "react-icons/fi";
 import { MdDeleteOutline } from "react-icons/md";
 
 export default function CardBasket() {
 
-    const [countProduct, setCountProduct] = useState<number>(1)
-
-    const minusProductCount = () => {
-        if (countProduct > 1) {
-            setCountProduct(countProduct - 1)
-        }
-    }
-
-
     return (
         <div className='card-basket-wrraper'>
 
-            <div className="container-img-card-basket">
-                <img src="Imgs/img-product.png" className='img-card-basket' />
+            <div className="container-img-basket">
+                <img src="Imgs/img-product.png" className='img-basket' />
             </div>
 
             <div className="container-details-card-basket">
                 <div className="container-name-and-icon-delete">
                     <p className="title-card-basket">تیشرت زنانه</p>
-                    <MdDeleteOutline size={25} className='icon-delete-card-at-basket' />
+                    <MdDeleteOutline className='icon-delete-card-at-basket' size={25} />
                 </div>
                 <p className="new-price-card-basket">۶۰۰,۰۰۰ تومان</p>
                 <p className="last-price-card-basket">1,200,000</p>
@@ -36,7 +24,7 @@ export default function CardBasket() {
                     <p className="sizes-card-basket">L</p>
                     <p className="sizes-card-basket">XL</p>
                 </div>
-                <p className='count-product'>تعداد: 2</p>
+                <p className='title-count-at-basket'>تعداد: 2</p>
             </div>
 
         </div>
