@@ -1,7 +1,13 @@
+.container-basket{
+    display: flex;
+    justify-content: space-between;
+}
+
 .container-cards-in-shop{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 60%;
 }
 
 .title-basket{

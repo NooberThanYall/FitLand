@@ -1,0 +1,23 @@
+.container-buy-process{
+    width: 35%;
+}
+
+.container-icons-process{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icons-and-titles-process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #D9D9D9;
+    font-size: 12px;
+    gap: 5px;
+}
+
+.icon-on{
+    color: #194165;
+}
