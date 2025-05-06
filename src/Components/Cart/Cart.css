@@ -1,17 +1,75 @@
-.container-basket{
+.container-cards-and-prices-list{
     display: flex;
+    align-items: start;
     justify-content: space-between;
+    width: 100%;
 }
 
 .container-cards-in-shop{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    row-gap: 30px;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.container-list-prices-basket{
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    width: 60%;
+    gap: 10px;
+    justify-self: end;
 }
 
 .title-basket{
     color: #032340;
     font-size: 26px;
     font-weight: 700;
+}
+
+.prices-product-basket{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #404040;
+    align-items: center;
+    font-weight: 700;
+    height: 0;
+}
+
+.send-price{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #404040;
+    align-items: center;
+    font-weight: 700;
+}
+
+.line-prices-list-basket{
+    width: 100%;
+}
+
+.total-price-basket{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #404040;
+    align-items: center;
+    font-weight: 700;
+}
+
+.btn-submit-pruches{
+    display: flex;
+    width: 100%;
+    background-color: #FA541C;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+    font-size: 17px;
+    justify-content: center;
+    cursor: pointer;
 }
