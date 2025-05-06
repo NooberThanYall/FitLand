@@ -1,5 +1,5 @@
 .basket-card-wraper{
-    width: 300px;
+    width: 350px;
     display: flex;
     border: 1px solid rgb(226, 226, 226);
     flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 .img-card-basket{
-    width: 300px;
+    width: 350px;
     border-radius: 30px;
     object-fit: cover;
 }

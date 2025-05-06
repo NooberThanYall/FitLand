@@ -61,7 +61,7 @@ export default function Footer() {
                 </div>
                 <div className="botto-bottom-footer">
                     <p className="text-right-bottom-footer">تمامی حقوق مادی و معنوی این وب‌سایت برای مجموعه فیت‌لند محفوظ می‌باشد.</p>
-                    <p className="text-left-bottom-footer">توسعه یافته توسط <abbr style={{ color: '#FA541C' }}>پرهام محبی</abbr> و <abbr style={{ color: '#FA541C' }}>شایان جعفرنژاد</abbr></p>
+                    <p className="text-left-bottom-footer">توسعه یافته توسط <abbr style={{ color: '#FA541C' }}>شایان جعفرنژاد</abbr> و <abbr style={{ color: '#FA541C' }}>پرهام محبی</abbr></p>
                 </div>
             </div>       
         </div>

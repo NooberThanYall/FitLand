@@ -1,16 +1,9 @@
-.container-cards-and-prices-list{
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    width: 100%;
-}
-
 .container-cards-in-shop{
     display: grid;
-    grid-template-columns: repeat(2, 300px);
-    row-gap: 30px;
+    grid-template-columns: repeat(3, 350px);
+    row-gap: 50px;
     justify-content: space-between;
-    width: 55%;
+    width: 100%;
 }
 
 .container-list-prices-basket{
@@ -21,6 +14,7 @@
     flex-direction: column;
     gap: 10px;
     justify-self: end;
+    width: 50%;
 }
 
 .title-basket{
@@ -37,6 +31,7 @@
     align-items: center;
     font-weight: 700;
     height: 0;
+    font-size: 18px;
 }
 
 .send-price{
@@ -46,6 +41,7 @@
     color: #404040;
     align-items: center;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .line-prices-list-basket{
@@ -59,11 +55,13 @@
     color: #404040;
     align-items: center;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .btn-submit-pruches{
     display: flex;
-    width: 100%;
+    align-self: center;
+    width: 50%;
     background-color: #FA541C;
     color: white;
     border-radius: 5px;
@@ -72,4 +70,12 @@
     font-size: 17px;
     justify-content: center;
     cursor: pointer;
+}
+
+.container-list-prices-and-buy-process{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
 }

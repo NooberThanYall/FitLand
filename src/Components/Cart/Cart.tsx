@@ -9,19 +9,20 @@ export default function Cart() {
   return (
     <div className='container'>
 
-      <BuyProcess />
-
       <p className='title-basket'>سبد خرید</p>
-      <div className="container-cards-and-prices-list">
+      <div className="container-cards-in-shop">
+        <CardBasket />
+        <CardBasket />
+        <CardBasket />
+        <CardBasket />
+        <CardBasket />
+        <CardBasket />
+      </div>
 
-        <div className="container-cards-in-shop">
-          <CardBasket />
-          <CardBasket />
-          <CardBasket />
-          <CardBasket />
-          <CardBasket />
-          <CardBasket />
-        </div>
+
+      <div className="container-list-prices-and-buy-process">
+
+        <BuyProcess />
 
         <div className="container-list-prices-basket">
           <p className="prices-product-basket"><abbr style={{ fontWeight: '500' }}>قیمت کالا</abbr> ۲۴۰.۰۰۰ تومان</p>
@@ -32,6 +33,7 @@ export default function Cart() {
         </div>
 
       </div>
+
     </div>
   )
 }
