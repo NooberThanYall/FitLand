@@ -7,7 +7,7 @@
 }
 
 .img-card-basket{
-    width: 350px;
+    width: 100%;
     border-radius: 30px;
     object-fit: cover;
 }
@@ -23,23 +23,23 @@
 }
 
 .icon-remove-product-from-basket{
-    color: #032340;
+    color: red;
     cursor: pointer;
 }
 
 .name-product-basket{
     color: #000306;
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 700;
-    padding-right: 30px;
+    padding-right: 43px;
 }
 
 .price-product-basket{
-    color: #032340;
-    font-size: 22px;
+    color: #FA541C;
+    font-size: 24px;
     font-weight: 700;
     margin-top: -10px;
-    padding-right: 30px;
+    padding-right: 43px;
 }
 
 .container-sie-and-count-product-in-basket{

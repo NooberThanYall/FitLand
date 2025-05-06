@@ -1,4 +1,5 @@
 import './BuyProcess.css'
+import './mediaBuyProcess.css'
 import { CiShoppingCart } from "react-icons/ci";
 import { BiLocationPlus } from "react-icons/bi";
 import { TfiWallet } from "react-icons/tfi";
@@ -11,9 +12,9 @@ export default function BuyProcess() {
     return (
         <div className="container-icons-process">
             <p className={`icons-and-titles-process ${location.pathname === '/Cart' ? 'icon-on' : ''}`}><CiShoppingCart size={25} /> سبد خرید</p>
-            <img src="Imgs/process-line.png" />
+            <img src="Imgs/process-line.png" className='img-line-buy-process' />
             <p className='icons-and-titles-process'><BiLocationPlus size={25} /> ثبت نشانی</p>
-            <img src="Imgs/process-line.png" />
+            <img src="Imgs/process-line.png" className='img-line-buy-process' />
             <p className='icons-and-titles-process'><TfiWallet size={20} /> پرداخت</p>
         </div>
     )
