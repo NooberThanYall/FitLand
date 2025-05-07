@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import BuyProcess from './BuyProcess/BuyProcess'
 import CardBasket from './CardBasket/CardBasket'
 import './Cart.css'
@@ -29,7 +30,7 @@ export default function Cart() {
           <p className="send-price"><abbr style={{ fontWeight: '500' }}>هزینه ارسال</abbr> ۵۰.۰۰۰ تومان</p>
           <img src="Imgs/Line-modal.png" className='line-prices-list-basket' />
           <p className="total-price-basket"><abbr style={{ fontWeight: '500' }}>مبلغ قابل پرداخت</abbr> ۲۹۰.۰۰۰ تومان</p>
-          <button className='btn-submit-pruches'>تکمیل فرایند خرید</button>
+          <Link className='btn-submit-pruches' to={'/GetAddress'}>تکمیل فرایند خرید</Link>
         </div>
 
       </div>

@@ -1,4 +1,5 @@
 import Cart from "./Components/Cart/Cart";
+import GetAddress from "./Components/Cart/GetAddress/GetAddress";
 import LoginForm from "./Components/LoginForm/LoginForm";
 import ProductDetails from "./Components/ProductDetails/ProductDetails";
 import Shop from "./Components/Shop/Shop";
@@ -11,7 +12,8 @@ let router = [
     { path: '/SignIn', element: <SignInForm /> },
     { path: '/Cart', element: <Cart /> },
     { path: '/Shop', element: <Shop /> },
-    { path: '/MainProduct', element: <ProductDetails /> }
+    { path: '/MainProduct', element: <ProductDetails /> },
+    { path: '/GetAddress', element: <GetAddress /> }
 ]
 
 export default router
