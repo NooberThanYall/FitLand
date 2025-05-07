@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import BuyProcess from '../BuyProcess/BuyProcess'
 import './GetAddress.css'
 import './mediaGetAddress.css'
@@ -29,7 +30,7 @@ export default function GetAddress() {
 
         <div className="container-submit-address">
           <p className="title-submit-address">در انتخاب آدرس دقت فرمایید</p>
-          <button className="btn-submit-address">تکمیل فرایند خرید <FaArrowLeftLong /></button>
+          <Link className="btn-submit-address" to={'/Payment'}>تکمیل فرایند خرید <FaArrowLeftLong /></Link>
         </div>
 
       </div>
