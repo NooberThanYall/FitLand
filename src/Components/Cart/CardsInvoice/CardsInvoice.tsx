@@ -9,9 +9,9 @@ export default function CardsInvoice() {
             <div className="container-products-info">
                 <p className="name-product-in-invoice">تیشرت زنانه</p>
                 <div className="container-detailes-product-in-invoice">
-                    <p className="size-in-invoice">سایز M</p>
-                    <p className="count-in-invoice">تعداد 1</p>
-                    <p className="price-in-invoice">600,000 تومان</p>
+                    <p className="size-in-invoice">سایز <abbr>M</abbr></p>
+                    <p className="count-in-invoice">تعداد <abbr>1</abbr></p>
+                    <p className="price-in-invoice"><abbr>قیمت</abbr>600,000</p>
                 </div>
             </div>
         </div>

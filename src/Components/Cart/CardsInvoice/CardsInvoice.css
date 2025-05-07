@@ -11,7 +11,7 @@
 
 .img-product-invoice{
     width: 100px;
-    height: 100px;
+    height: 100%;
     border-radius: 30px;
     object-fit: cover;
 }
@@ -24,21 +24,35 @@
 
 .container-detailes-product-in-invoice{
     display: flex;
-    gap: 20px;
     margin-top: -20px;
+    justify-content: space-between;
+    background-color: red;
+    width: 100%;
 }
 
 .size-in-invoice{
     color: #404040;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
 }
 
 .count-in-invoice{
     color: #404040;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
 }
 
 .price-in-invoice{
     color: #404040;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
 }
