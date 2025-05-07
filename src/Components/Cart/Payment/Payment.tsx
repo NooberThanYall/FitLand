@@ -1,3 +1,4 @@
+import BuyProcess from '../BuyProcess/BuyProcess'
 import CardsInvoice from '../CardsInvoice/CardsInvoice'
 import './Payment.css'
 import './mediaPayment.css'
@@ -23,6 +24,11 @@ export default function Payment() {
                         <p className="users-phone-number">09149582599</p>
                         <p className="users-name">شایان جعفرنژاد</p>
                     </div>
+                </div>
+
+                <div className="container-submit-buy">
+                    <BuyProcess />
+                    <button className="btn-final-buy">پرداخت</button>
                 </div>
 
             </div>

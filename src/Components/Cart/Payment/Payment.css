@@ -9,7 +9,6 @@
     color: #032340;
     font-size: 26px;
     font-weight: 700;
-    text-align: center;
 }
 
 .contaienr-user-address{
@@ -65,4 +64,23 @@
 
 .container-detail-address{
     width: 58%;
+}
+
+.container-submit-buy{
+    margin-top: 100px;
+}
+
+.btn-final-buy{
+    border: none;
+    color: white;
+    background-color: #FA541C;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 40px;
+    cursor: pointer;
 }
