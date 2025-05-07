@@ -6,7 +6,7 @@ import { LuShoppingCart } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
 import { useState } from 'react';
 import Comments from './Comments/Comments';
-import CardsShop from '../CardsShop/CardsShop';
+import CardsShop from '../Shop/CardsShop/CardsShop';
 import AboutSell from '../Home/AboutSell/AboutSell';
 import Modal from '../Modal/Modal';
 import { useRef } from 'react';

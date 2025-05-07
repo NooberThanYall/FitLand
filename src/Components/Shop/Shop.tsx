@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Filter from '../Filter/Filter'
+import Filter from './Filter/Filter'
 import './Shop.css'
 import './mediaShop.css'
-import CardsShop from '../CardsShop/CardsShop'
+import CardsShop from './CardsShop/CardsShop'
 import { FaFilter } from "react-icons/fa6";
 
 export default function Shop() {

@@ -1,5 +1,5 @@
-import BuyProcess from '../BuyProcess/BuyProcess'
-import CardBasket from '../CardBasket/CardBasket'
+import BuyProcess from './BuyProcess/BuyProcess'
+import CardBasket from './CardBasket/CardBasket'
 import './Cart.css'
 import './mediaCart.css'
 
