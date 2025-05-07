@@ -1,0 +1,12 @@
+.container-invoice{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+.title-invoice{
+    color: #032340;
+    font-size: 26px;
+    font-weight: 700;
+}
