@@ -9,4 +9,60 @@
     color: #032340;
     font-size: 26px;
     font-weight: 700;
+    text-align: center;
+}
+
+.contaienr-user-address{
+    margin-top: 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-self: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.img-map{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.title-user-address{
+    color: #032340;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 0;
+    width: 100%;
+}
+
+.main-address{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.users-city{
+    color: #606060;
+    font-size: 16px;
+    margin-bottom: 0%;
+}
+
+.users-phone-number{
+    color: #606060;
+    font-size: 16px;
+    margin-bottom: 0%;
+}
+
+.users-name{
+    color: #606060;
+    font-size: 16px;
+    margin-bottom: 0%;
+}
+
+.container-detail-address{
+    width: 58%;
 }
