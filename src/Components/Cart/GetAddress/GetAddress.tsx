@@ -11,19 +11,21 @@ export default function GetAddress() {
         <p className="title-address">ابتدا آدرس خود را تکمیل کنید</p>
 
         <div className="container-inputs-address">
-          <input type="text" placeholder='استان' />
-          <input type="text" placeholder='شهر'  />
-          <input type="text" placeholder='خیابان'  />
-          <input type="text" placeholder='پلاک'  />
-          <input type="text" placeholder='واحد'  />
-          <input type="text" placeholder='کد پستی'  />
+          <input type="text" placeholder='استان' className='inpts-address' />
+          <input type="text" placeholder='شهر' className='inpts-address' />
+          <input type="text" placeholder='خیابان' className='inpts-address' />
+          <input type="text" placeholder='پلاک' className='inpts-address' />
+          <input type="text" placeholder='واحد' className='inpts-address' />
+          <input type="text" placeholder='کد پستی' className='inpts-address' />
         </div>
 
         <BuyProcess />
+
         <div className="container-submit-address">
-          <p className="title-submit-address">در انتخاب آدرس و همچنین انتخاب روز ارسال دقت فرمایید</p>
+          <p className="title-submit-address">در انتخاب آدرس دقت فرمایید</p>
           <button className="btn-submit-address">تکمیل فرایند خرید <FaArrowLeftLong /></button>
         </div>
+
       </div>
     </div>
   )
