@@ -11,12 +11,18 @@ export default function GetAddress() {
         <p className="title-address">ابتدا آدرس خود را تکمیل کنید</p>
 
         <div className="container-inputs-address">
-          <input type="text" placeholder='استان' className='inpts-address' />
-          <input type="text" placeholder='شهر' className='inpts-address' />
-          <input type="text" placeholder='خیابان' className='inpts-address' />
-          <input type="text" placeholder='پلاک' className='inpts-address' />
-          <input type="text" placeholder='واحد' className='inpts-address' />
-          <input type="text" placeholder='کد پستی' className='inpts-address' />
+          <div className='div-inputss'>
+            <input type="text" placeholder='استان' className='inpts-address' />
+            <input type="text" placeholder='شهر' className='inpts-address' />
+          </div>
+          <div className='div-inputss'>
+            <input type="text" placeholder='خیابان' className='inpts-address' />
+            <input type="number" placeholder='پلاک' className='inpts-address' />
+          </div>
+          <div className='div-inputss'>
+            <input type="number" placeholder='واحد' className='inpts-address' />
+            <input type="number" placeholder='کد پستی' className='inpts-address' />
+          </div>
         </div>
 
         <BuyProcess />

@@ -1,12 +1,11 @@
 import { Link } from 'react-router'
 import BuyProcess from './BuyProcess/BuyProcess'
 import CardBasket from './CardBasket/CardBasket'
+import { FaArrowLeftLong } from "react-icons/fa6";
 import './Cart.css'
 import './mediaCart.css'
 
-
 export default function Cart() {
-
   return (
     <div className='container'>
 
@@ -20,7 +19,6 @@ export default function Cart() {
         <CardBasket />
       </div>
 
-
       <div className="container-list-prices-and-buy-process">
 
         <BuyProcess />
@@ -30,7 +28,7 @@ export default function Cart() {
           <p className="send-price"><abbr style={{ fontWeight: '500' }}>هزینه ارسال</abbr> ۵۰.۰۰۰ تومان</p>
           <img src="Imgs/Line-modal.png" className='line-prices-list-basket' />
           <p className="total-price-basket"><abbr style={{ fontWeight: '500' }}>مبلغ قابل پرداخت</abbr> ۲۹۰.۰۰۰ تومان</p>
-          <Link className='btn-submit-pruches' to={'/GetAddress'}>تکمیل فرایند خرید</Link>
+          <Link className='btn-submit-pruches' to={'/GetAddress'}>تکمیل فرایند خرید <FaArrowLeftLong /></Link>
         </div>
 
       </div>
