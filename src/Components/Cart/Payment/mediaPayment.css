@@ -38,6 +38,14 @@
     .container-invoice {
         grid-template-columns: repeat(3, 240px);
     }
+
+    .img-map{
+        display: none;
+    }
+
+    .container-detail-address{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
