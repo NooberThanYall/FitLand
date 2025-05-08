@@ -15,7 +15,7 @@ export default function Payment() {
                     <CardsInvoice />
                 </div>
 
-                <div className="contaienr-user-address">
+                {/* <div className="contaienr-user-address">
                     <img src="Imgs/img-map.png" className='img-map' />
                     <div className="container-detail-address">
                         <p className="title-user-address">آدرس شما</p>
@@ -24,7 +24,7 @@ export default function Payment() {
                         <p className="users-phone-number">09149582599</p>
                         <p className="users-name">شایان جعفرنژاد</p>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="container-submit-buy">
                     <BuyProcess />

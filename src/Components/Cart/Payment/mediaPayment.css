@@ -45,3 +45,51 @@
         grid-template-columns: repeat(3, 220px);
     }
 }
+
+@media only screen and (max-width: 750px) {
+    .container-invoice {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container-invoice {
+        grid-template-columns: repeat(2, 280px);
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .container-invoice {
+        grid-template-columns: repeat(2, 260px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-invoice {
+        grid-template-columns: repeat(2, 240px);
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .container-invoice {
+        grid-template-columns: repeat(2, 220px);
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .container-invoice {
+        grid-template-columns: repeat(1, 400px);
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .container-invoice {
+        grid-template-columns: repeat(1, 350px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container-invoice {
+        grid-template-columns: repeat(1, 330px);
+    }
+}

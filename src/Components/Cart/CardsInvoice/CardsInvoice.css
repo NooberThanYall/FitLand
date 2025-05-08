@@ -7,6 +7,7 @@
     border-radius: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    padding-left: 30px;
 }
 
 .img-product-invoice{
@@ -26,7 +27,6 @@
     display: flex;
     margin-top: -20px;
     justify-content: space-between;
-    background-color: red;
     width: 100%;
 }
 
@@ -55,4 +55,8 @@
     align-items: center;
     gap: 5px;
     flex-direction: column;
+}
+
+.container-products-info{
+    width: 100%;
 }
