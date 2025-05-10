@@ -1,0 +1,51 @@
+.container-SuccessfulPurchase{
+    display: flex;
+    background-color: #EFF7F6;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.container-texts-SuccessfulPurchase{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-SuccessfulPurchase{
+    color: #257028;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.desc-SuccessfulPurchase{
+    color: #257028;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.buy-code-SuccessfulPurchase{
+    color: #257028;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.btn-SuccessfulPurchase{
+    background-color: #194165;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 150px;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.container-img-SuccessfulPurchase{}
