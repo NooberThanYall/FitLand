@@ -1,6 +1,5 @@
 import './VipOffBike.css'
 import './mediaVipOffBike.css'
-import {FaArrowLeft} from 'react-icons/fa'
 
 export default function VipOffBike() {
   return (
@@ -8,7 +7,6 @@ export default function VipOffBike() {
                 <div className="container-off-bike">
     
                     <p className="title-off-bike">تخفیفات ویژه</p>
-                    <p className="see-all-btn-off-bike">مشاهده همه <FaArrowLeft size={15} /></p>
     
                     <div className="container-cards-off-bike">
     

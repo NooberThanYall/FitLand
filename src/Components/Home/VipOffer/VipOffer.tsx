@@ -1,6 +1,5 @@
 import './VipOffer.css'
 import './mediaVipOffer.css'
-import { FaArrowLeft } from "react-icons/fa";
 
 export default function VipOffer() {
     return (
@@ -8,7 +7,6 @@ export default function VipOffer() {
             <div className="container-vip-off">
 
                 <p className="title-vip-off">تخفیفات ویژه</p>
-                <p className="see-all-btn">مشاهده همه <FaArrowLeft size={15} /></p>
 
                 <div className="container-cards-vip-off">
 

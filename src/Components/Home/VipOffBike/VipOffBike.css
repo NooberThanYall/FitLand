@@ -15,25 +15,6 @@ body{
     margin-right: 20px;
 }
 
-.see-all-btn-off-bike{
-    display: flex;
-    align-items: center;
-    color: #032340;
-    font-size: 18px;
-    gap: 7px;
-    justify-content: end;
-    font-weight: 500;
-    cursor: pointer;
-    user-select: none;
-    transition: 0.3s;
-    position: relative;
-    bottom: 60px;
-}
-
-.see-all-btn-off-bike:hover{
-    transform: translateY(-3px);
-}
-
 .container-cards-off-bike{
     display: grid;
     grid-template-columns: repeat(3, 350px);
