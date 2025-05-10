@@ -1,0 +1,26 @@
+@media only screen and (max-width: 640px) {
+    .img-page-404{
+        width: 100%;
+    }
+
+    .text-page-404{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .text-page-404{
+        font-size: 22px;
+    }
+
+    .btn-page-404{
+        font-size: 14px;
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .text-page-404{
+        font-size: 20px;
+    }
+}
