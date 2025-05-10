@@ -1,0 +1,28 @@
+.container-page-404{
+    width: 100%;
+    text-align: center;
+}
+
+.img-page-404{
+
+}
+
+.text-page-404{
+    color: #032340;
+    font-size: 24px;
+}
+
+.btn-page-404{
+    background-color: #194165;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 150px;
+    justify-content: center;
+    padding: 10px 0px;
+    justify-self: center;
+}
