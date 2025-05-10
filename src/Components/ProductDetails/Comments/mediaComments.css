@@ -10,13 +10,8 @@
     }
 }
 
-
-@media only screen and (max-width: 430px){
-    .img-user{
-        display: none;
-    }
-
-    .text-comment{
-        padding-right: 15px;
+@media only screen and (max-width: 750px){
+    .comments-provider{
+        padding: 5px 20px;
     }
 }
