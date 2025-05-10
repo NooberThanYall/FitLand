@@ -1,10 +1,12 @@
 .container-SuccessfulPurchase{
+    width: 100%;
     display: flex;
     background-color: #EFF7F6;
     border-radius: 5px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 100px;
+    padding: 30px;
 }
 
 .container-texts-SuccessfulPurchase{
@@ -47,5 +49,3 @@
     justify-content: center;
     padding: 10px 0px;
 }
-
-.container-img-SuccessfulPurchase{}
