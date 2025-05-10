@@ -2,7 +2,6 @@ import { Link } from 'react-router';
 import './SuccessfulPurchase.css'
 import './mediaSuccessfulPurchase.css'
 import { FiHome } from "react-icons/fi";
-import { TiTick } from "react-icons/ti";
 
 export default function SuccessfulPurchase() {
   return (
