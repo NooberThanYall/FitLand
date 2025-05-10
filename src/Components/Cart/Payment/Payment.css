@@ -85,4 +85,6 @@
     justify-self: center;
     margin-top: 40px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }

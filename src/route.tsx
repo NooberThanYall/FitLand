@@ -5,6 +5,7 @@ import LoginForm from "./Components/LoginForm/LoginForm";
 import ProductDetails from "./Components/ProductDetails/ProductDetails";
 import Shop from "./Components/Shop/Shop";
 import SignInForm from "./Components/SignInForm/SignInForm";
+import SuccessfulPurchase from "./Components/SuccessfulPurchase/SuccessfulPurchase";
 import Home from "./Pages/Home/Home";
 
 let router = [
@@ -15,7 +16,8 @@ let router = [
     { path: '/Shop', element: <Shop /> },
     { path: '/MainProduct', element: <ProductDetails /> },
     { path: '/GetAddress', element: <GetAddress /> },
-    { path: '/Payment', element: <Payment /> }
+    { path: '/Payment', element: <Payment /> },
+    { path: '/SuccessfulPurchase', element: <SuccessfulPurchase /> }
 ]
 
 export default router

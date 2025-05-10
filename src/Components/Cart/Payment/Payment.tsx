@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import BuyProcess from '../BuyProcess/BuyProcess'
 import CardsInvoice from '../CardsInvoice/CardsInvoice'
 import './Payment.css'
@@ -28,7 +29,7 @@ export default function Payment() {
 
                 <div className="container-submit-buy">
                     <BuyProcess />
-                    <button className="btn-final-buy">پرداخت</button>
+                    <Link className="btn-final-buy" to={'/SuccessfulPurchase'}>پرداخت</Link>
                 </div>
 
             </div>
