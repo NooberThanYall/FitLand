@@ -39,6 +39,7 @@
     gap: 10px;
     width: 200px;
     justify-content: center;
+    text-decoration: none;
 }
 
 .container-header-left-childes{
