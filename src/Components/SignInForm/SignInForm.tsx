@@ -15,10 +15,8 @@ export default function SignInForm() {
     const [inputName, setInputName] = useState('')
     const [inputPhone, setInputPhone] = useState('')
     const [inputEmail, setInputEmail] = useState('')
-
     const [isNameValid, setIsNameValid] = useState(false)
     const [isPhoneValid, setIsPhoneValid] = useState(false)
-
     const [allValid, setAllValid] = useState(false)
 
     useEffect(() => {

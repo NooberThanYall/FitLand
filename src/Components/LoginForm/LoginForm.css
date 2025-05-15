@@ -83,3 +83,15 @@
 .text-back-home-login:hover{
     color: #FA541C;
 }
+
+.valid{
+    border-color: green;
+}
+
+.inValid{
+    border-color: red;
+}
+
+.btn-dont-work {
+    opacity: 0.3;
+}
