@@ -11,12 +11,12 @@ type setIsShowModalProps = {
 
 
 export default function Modal({ setIsShowModal }: setIsShowModalProps) {
-    
+
   return (
     <div className='modal-wraper'>
       <div className="container-title-and-close-btn-modal">
         <p className="title-modal">این کالا به سبد خریدت اضافه شد!</p>
-        <IoIosCloseCircleOutline className='btn-close-modal' size={20} onClick={() => setIsShowModal(false)}  />
+        <IoIosCloseCircleOutline className='btn-close-modal' size={20} onClick={() => setIsShowModal(false)} />
       </div>
       <img src="Imgs/Line-modal.png" className='line-modal' />
       <div className="container-img-and-name-product0in-modal">
